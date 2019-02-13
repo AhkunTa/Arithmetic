@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # [LeetCode](https://leetcode-cn.com/bryce/)
 
 --------
