@@ -25,5 +25,5 @@ var isValid = function(s) {
             return false;
         }
     }
-    return !arr.length  
+    return !arr.length; 
 };

@@ -28,13 +28,13 @@
 var romanToInt = function(s) {
     var result = 0;
     if(s.includes('IV') || s.includes('IX')){
-        result =result -2 ; 
+        result =result -2; 
     }
     if(s.includes('XL') || s.includes('XC')){
-        result =result -20 ; 
+        result =result -20; 
     }
     if(s.includes('CD') || s.includes('CM')){
-        result =result -200 ; 
+        result =result -200; 
     }
     
     for(let c of s ){

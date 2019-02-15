@@ -20,7 +20,7 @@
 var longestCommonPrefix = function(strs) {
 
     var result = '';
-    if(strs.length == 0 )  return result;
+    if(strs.length == 0)  return result;
     for(var i=0; i< strs[0].length; i++){
         for(var j=1; j<strs.length; j++){
             if( strs[0][i] != strs[j][i]){

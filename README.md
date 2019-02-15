@@ -12,5 +12,6 @@
 | 14  |  [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) |[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/) |  javascript,|  
 | 20  |  [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) |[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) |  javascript,| 
 | 26  |  [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |  javascript,| 
+| 27  |  [移除元素](https://leetcode-cn.com/problems/remove-element/) |[Remove Element](https://leetcode-cn.com/problems/remove-element/) |  javascript,| 
 | 771  |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/) |  javascript,|
 
