@@ -34,7 +34,6 @@
 // 6.     312211
 
 
-
 var countAndSay = function(n) {
 	var arr = [1];
     function toArray(arr){
@@ -60,3 +59,5 @@ var countAndSay = function(n) {
     }
 	return arr.join('');
 };
+
+//2 
