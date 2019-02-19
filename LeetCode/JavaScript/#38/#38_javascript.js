@@ -34,19 +34,23 @@
 // 6.     312211
 
 
+
 var countAndSay = function(n) {
 	var arr = [1];
-	var str = "";
-    
     function toArray(arr){
         var newArr = [];
         for(var i=0; i<arr.length; i++){
+
             var num = 1; //重复次数
             var index = arr[i] //当前数字
+
+            //循环判断后一位是否等于前一位数字
+            //若相等则 重复次数+1 再次判断再后一位是否与前一位相等
             while(arr[i+1] == index ){
                 num ++;
                 i++;
             }
+           	// 将数字存入数组
             newArr.push(num,index);
         }
         return newArr;
