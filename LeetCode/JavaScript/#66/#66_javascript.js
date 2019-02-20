@@ -28,8 +28,8 @@ var plusOne = function(digits) {
             return digits;
         } 
     }
-    if(digits.length == 0  ){
-        return [1]
+    if(digits.length == 0){
+        return [1];
     //题干说明没有0开头  若第一位为0 则原数组为[9,9,9,...],给头部加上1
     }else if(digits[0] == 0){
         digits.unshift(1);
