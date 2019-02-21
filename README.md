@@ -4,7 +4,7 @@
 --------
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
-| --- | --------- | --------  |:--------:|:--------:|:-------:|  
+| --- | --------- | --------  |:--------:|:--------|:-------:|  
 | 1   |  [两数之和](https://leetcode-cn.com/problems/two-sum/) |[Two Sum](https://leetcode-cn.com/problems/two-sum/) |  javascript,|    | eazy  |
 | 9   |  [回文数](https://leetcode-cn.com/problems/palindrome-number/) |[Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/) |  javascript,|      | eazy  |
 | 13  |  [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) |[Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/) |  javascript,|      | eazy  |
@@ -18,6 +18,8 @@
 | 58  |  [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) |[Length Of Last Word](https://leetcode-cn.com/problems/length-of-last-word/) |  javascript,|    | eazy  |
 | 66  |  [加一](https://leetcode-cn.com/problems/plus-one/) |[Plus One](https://leetcode-cn.com/problems/plus-one/) |  javascript,|    | eazy  |
 | 67  |  [二进制求和](https://leetcode-cn.com/problems/add-binary/) |[Add Binary](https://leetcode-cn.com/problems/add-binary/) |  javascript,|    | eazy  |
+| 69  |  [x的平方根](https://leetcode-cn.com/problems/sqrtx/) |[Sqrtx](https://leetcode-cn.com/problems/sqrtx/) |  javascript,|二分法，牛顿迭代法| eazy  |
+| 70  |  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) |[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) |  javascript,| 动态规划  | eazy  |
 | 771  |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/) |  javascript,|    |  eazy |
 
 --------
