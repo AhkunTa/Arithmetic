@@ -20,6 +20,7 @@
 | 67  |  [二进制求和](https://leetcode-cn.com/problems/add-binary/) |[Add Binary](https://leetcode-cn.com/problems/add-binary/) |  javascript,|    | eazy  |
 | 69  |  [x的平方根](https://leetcode-cn.com/problems/sqrtx/) |[Sqrtx](https://leetcode-cn.com/problems/sqrtx/) |  javascript,|二分法，牛顿迭代法| eazy  |
 | 70  |  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) |[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) |  javascript,| 动态规划  | eazy  |
+| 88  |  [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) |[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) |  javascript,|   | eazy  |
 | 771  |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/) |  javascript,|    |  eazy |
 
 --------

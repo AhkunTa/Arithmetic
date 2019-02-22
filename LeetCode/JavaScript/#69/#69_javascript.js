@@ -42,7 +42,7 @@ var mySqrt = function(x) {
 };
 
 // 牛顿迭代法
-// 迭代法算法自行百度
+// 迭代法算法自行百度 反正我是看不懂 = =
 var mySqrt = function(x) {
     
 
