@@ -1,5 +1,5 @@
 
-# [My LeetCode](https://leetcode-cn.com/bryce/)
+# <font color = 'red'>[My LeetCode](https://leetcode-cn.com/bryce/)</font>
 
 --------
 
@@ -21,6 +21,9 @@
 | 69  |  [x的平方根](https://leetcode-cn.com/problems/sqrtx/) |[Sqrtx](https://leetcode-cn.com/problems/sqrtx/) |  javascript,|二分法，牛顿迭代法| eazy  |
 | 70  |  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) |[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) |  javascript,| 动态规划  | eazy  |
 | 88  |  [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) |[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) |  javascript,|   | eazy  |
+| 118  |  [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) |[Pascals Triangle](https://leetcode-cn.com/problems/pascals-triangle/) |  javascript,|   | eazy  |
+| 119  |  [杨辉三角2](https://leetcode-cn.com/problems/pascals-triangle-ii/) |[Pascals Triangle 2](https://leetcode-cn.com/problems/pascals-triangle-ii/) |  javascript,|   | eazy  |
+| 121  |  [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) |[Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) |  javascript,|   | eazy  |
 | 771  |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/) |  javascript,|    |  eazy |
 
 --------
