@@ -29,8 +29,9 @@
 | 125 |  [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)                              |[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)                                       |javascript,|                    | eazy  |
 | 136 |  [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)                            |[Single Number](https://leetcode-cn.com/problems/single-number/)                                             |javascript,|                    | eazy  |
 | 141 |  [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)                               |[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)                                     |javascript,|  链表，双指针        | eazy  |
+| 202 |  [快乐数](https://leetcode-cn.com/problems/happy-number/submissions/)                          |[Submissions](https://leetcode-cn.com/problems/happy-number/submissions/)                                    |javascript,|                    | eazy  |
 | 344 |  [反转字符串](https://leetcode-cn.com/problems/reverse-string/)                                |[Reverse String](https://leetcode-cn.com/problems/reverse-string/)                                           |javascript,|                    |  eazy |
-| 771 |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)                              |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                    |javascript,|                    |  eazy |
+| 771 |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)                             |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                     |javascript,|                    |  eazy |
 
 
 
