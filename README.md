@@ -28,7 +28,11 @@
 | 122 |  [买卖股票的最佳时机2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)    |[Best Time To Buy And Sell Stock2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)     |javascript,|                    | eazy  |
 | 125 |  [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)                              |[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)                                       |javascript,|                    | eazy  |
 | 136 |  [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)                            |[Single Number](https://leetcode-cn.com/problems/single-number/)                                             |javascript,|                    | eazy  |
-| 771 |  [反转字符串](https://leetcode-cn.com/problems/reverse-string/)                                |[Reverse String](https://leetcode-cn.com/problems/reverse-string/)                                           |javascript,|                    |  eazy |
+| 344 |  [反转字符串](https://leetcode-cn.com/problems/reverse-string/)                                |[Reverse String](https://leetcode-cn.com/problems/reverse-string/)                                           |javascript,|                    |  eazy |
 | 771 |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)                              |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                    |javascript,|                    |  eazy |
+
+
+
+
 
 --------
