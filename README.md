@@ -4,8 +4,8 @@
 --------
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
-| --- | --------- | --------  |:--------:|:--------|:-------:|   
-| 1   |  [两数之和](https://leetcode-cn.com/problems/two-sum/)                                          |[Two Sum](https://leetcode-cn.com/problems/two-sum/)                                                        |javascript,|                    | eazy  |
+| --- | --------- | --------  |:--------:|:--------:|:-------:|   
+| 1   |  [两数之和](https://leetcode-cn.com/problems/two-sum/)                                          |[Two Sum](https://leetcode-cn.com/problems/two-sum/)                                                        |javascript,|                    | eazy  |                 
 | 9   |  [回文数](https://leetcode-cn.com/problems/palindrome-number/)                                  |[Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/)                                    |javascript,|                    | eazy  |
 | 13  |  [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)                           |[Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/)                                       |javascript,|                    | eazy  |
 | 14  |  [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)                        |[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)                             |javascript,|                    | eazy  |
@@ -32,9 +32,6 @@
 | 202 |  [快乐数](https://leetcode-cn.com/problems/happy-number/submissions/)                          |[Submissions](https://leetcode-cn.com/problems/happy-number/submissions/)                                    |javascript,|                    | eazy  |
 | 344 |  [反转字符串](https://leetcode-cn.com/problems/reverse-string/)                                |[Reverse String](https://leetcode-cn.com/problems/reverse-string/)                                           |javascript,|                    |  eazy |
 | 771 |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)                             |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                     |javascript,|                    |  eazy |
-
-
-
-
+| 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[divisor-game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 
 --------
