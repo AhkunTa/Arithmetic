@@ -1,5 +1,5 @@
 
-# <font color = 'red'>[My LeetCode](https://leetcode-cn.com/bryce/)</font>
+# [My LeetCode](https://leetcode-cn.com/bryce/)
 
 --------
 
