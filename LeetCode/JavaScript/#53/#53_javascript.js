@@ -9,7 +9,7 @@
  * @param {number[]} nums
  * @return {number}
  */
- //1 循环遍历 实现复杂度为 O(n)
+ //1 循环遍历 实现复杂度为 O(n) 动态规划
 var maxSubArray = function(nums) {
     var sum = nums[0];
     var max = nums[0];
@@ -29,5 +29,5 @@ var maxSubArray = function(nums) {
 };
 
 
-//2 动态规划 
+//2 分治法 
 
