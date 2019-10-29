@@ -29,10 +29,12 @@
 | 125 |  [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)                              |[Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/)                                       |javascript,|                    | eazy  |
 | 136 |  [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)                            |[Single Number](https://leetcode-cn.com/problems/single-number/)                                             |javascript,|                    | eazy  |
 | 141 |  [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)                               |[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)                                     |javascript,|  链表，双指针        | eazy  |
+| 198 |  [打家劫舍](https://leetcode-cn.com/problems/house-robber/)                                     |[House Robber](https://leetcode-cn.com/problems/house-robber/)                                             |javascript,|    动态规划          | eazy  |
 | 202 |  [快乐数](https://leetcode-cn.com/problems/happy-number/submissions/)                          |[Submissions](https://leetcode-cn.com/problems/happy-number/submissions/)                                    |javascript,|                    | eazy  |
 | 344 |  [反转字符串](https://leetcode-cn.com/problems/reverse-string/)                                |[Reverse String](https://leetcode-cn.com/problems/reverse-string/)                                           |javascript,|                    |  eazy |
+| 746|   [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
 | 771 |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)                             |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                     |javascript,|                    |  eazy |
-| 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[divisor-game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
+| 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 
 --------
 
@@ -43,7 +45,9 @@
 | 53  |  [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)                               |[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                      |javascript,|    动态规划 分治法   |  eazy |
 | 70  |  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)                                    |[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)                                        |javascript,| 动态规划            | eazy  |
 | 121 |  [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)        |[Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |javascript,|     动态规划       | eazy  |
-| 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[divisor-game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
+| 198 |  [打家劫舍](https://leetcode-cn.com/problems/house-robber/)                                     |[House Robber](https://leetcode-cn.com/problems/house-robber/)                                              |javascript,|    动态规划          | eazy  |
+| 746|   [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
+| 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 
 
 ----------
