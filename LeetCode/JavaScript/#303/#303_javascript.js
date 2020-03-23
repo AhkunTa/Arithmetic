@@ -13,6 +13,8 @@
 // 会多次调用 sumRange 方法。
 
 // 法一 暴力破解 
+// 时间 O(n)
+// 空间 O(1)
 
 /**
  * @param {number[]} nums
@@ -40,7 +42,13 @@ NumArray.prototype.sumRange = function(i, j) {
  * var param_1 = obj.sumRange(i,j)
  */
 
+
+
+
 // 法2 动态规划
+// 时间 O(1)
+// 空间 O(n)
+
 
 // 在new 对象的时候 把数组从0位一直到N位每一位之前的和求出
 // 当计算i 至 j的和时，只需要把 用 j前面(包含 j )的和 减去 i前面(不包含 i )的和即可

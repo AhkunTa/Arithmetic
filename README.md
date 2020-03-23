@@ -39,6 +39,8 @@
 | 771 |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)                             |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                     |javascript,|                    |  eazy |
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 
+| 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
+
 --------
 
 #### 动态规划`Dynamic Programming`
@@ -49,10 +51,11 @@
 | 70  |  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)                                    |[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)                                        |javascript,| 动态规划            | eazy  |
 | 121 |  [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)        |[Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |javascript,|     动态规划        | eazy  |
 | 198 |  [打家劫舍](https://leetcode-cn.com/problems/house-robber/)                                     |[House Robber](https://leetcode-cn.com/problems/house-robber/)                                              |javascript,|    动态规划         | eazy  |
-| 303 |  [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)        |[RangeSumQueryImmutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)                         |javascript,|        动态规划    |  eazy |
+| 303 |  [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)        |[Range Sum Query Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)                         |javascript,|        动态规划    |  eazy |
 | 392 |  [判断子序列](https://leetcode-cn.com/problems/is-subsequence/)                                |[Is Subsequence](https://leetcode-cn.com/problems/is-subsequence/)                                            |javascript,| 双指针 动态规划     |  eazy |
 | 746|   [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 
+| 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
 ----------
