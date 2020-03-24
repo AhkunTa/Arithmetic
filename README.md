@@ -6,6 +6,7 @@
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|--------|:-------:|   
 | 1   |  [两数之和](https://leetcode-cn.com/problems/two-sum/)                                          |[Two Sum](https://leetcode-cn.com/problems/two-sum/)                                                        |javascript,|                    | eazy  |                 
+| 5   |  [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)        |[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)       |javascript,|       动态规划，Manacher算法,中心扩散     | medium  |                 
 | 9   |  [回文数](https://leetcode-cn.com/problems/palindrome-number/)                                  |[Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/)                                    |javascript,|                    | eazy  |
 | 13  |  [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)                           |[Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/)                                       |javascript,|                    | eazy  |
 | 14  |  [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)                        |[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)                             |javascript,|                    | eazy  |
@@ -47,6 +48,7 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
+| 5   |  [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)        |[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)       |javascript,|       动态规划，Manacher算法,中心扩散     | medium  |                 
 | 53  |  [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)                               |[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                      |javascript,|    动态规划 分治法   |  eazy |
 | 70  |  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)                                    |[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)                                        |javascript,| 动态规划            | eazy  |
 | 121 |  [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)        |[Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |javascript,|     动态规划        | eazy  |
