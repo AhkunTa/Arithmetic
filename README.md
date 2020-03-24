@@ -17,6 +17,7 @@
 | 38  |  [报数](https://leetcode-cn.com/problems/count-and-say/)                                        |[Count And Say](https://leetcode-cn.com/problems/count-and-say/)                                            |javascript,|                    | eazy  |
 | 53  |  [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)                               |[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                      |javascript,|    动态规划 分治法   |  eazy |
 | 58  |  [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)                     |[Length Of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)                                |javascript,|                    | eazy  |
+| 62  |  [不同路径](https://leetcode-cn.com/problems/unique-paths/)                                  |[Unique Paths](https://leetcode-cn.com/problems/unique-paths/)                                                 |javascript,|    动态规划           |  medium |
 | 66  |  [加一](https://leetcode-cn.com/problems/plus-one/)                                             |[Plus One](https://leetcode-cn.com/problems/plus-one/)                                                      |javascript,|                   | eazy  |
 | 67  |  [二进制求和](https://leetcode-cn.com/problems/add-binary/)                                     |[Add Binary](https://leetcode-cn.com/problems/add-binary/)                                                  |javascript,|                    | eazy  |
 | 69  |  [x的平方根](https://leetcode-cn.com/problems/sqrtx/)                                           |[Sqrtx](https://leetcode-cn.com/problems/sqrtx/)                                                            |javascript,|二分法 牛顿迭代法    | eazy  |
@@ -48,8 +49,9 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
-| 5   |  [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)        |[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)       |javascript,|       动态规划，Manacher算法,中心扩散     | medium  |                 
+| 5   |  [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)               |[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)  |javascript,|       动态规划，Manacher算法,中心扩散     | medium  |                 
 | 53  |  [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)                               |[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                      |javascript,|    动态规划 分治法   |  eazy |
+| 62  |  [不同路径](https://leetcode-cn.com/problems/unique-paths/)                                  |[Unique Paths](https://leetcode-cn.com/problems/unique-paths/)                                                 |javascript,|    动态规划           |  medium |
 | 70  |  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)                                    |[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)                                        |javascript,| 动态规划            | eazy  |
 | 121 |  [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)        |[Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |javascript,|     动态规划        | eazy  |
 | 198 |  [打家劫舍](https://leetcode-cn.com/problems/house-robber/)                                     |[House Robber](https://leetcode-cn.com/problems/house-robber/)                                              |javascript,|    动态规划         | eazy  |
