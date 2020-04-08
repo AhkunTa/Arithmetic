@@ -32,21 +32,21 @@
 // 不失为一种方法，不过通不过编译   (╰_╯)#
 
 var climbStairs = function(n) {
-    if(n == 1){
+    if (n == 1) {
         return 1;
-    }else if(n == 2){
+    } else if (n == 2) {
         return 2
-    }else{
-        return climbStairs(n-1) + climbStairs(n-2);
+    } else {
+        return climbStairs(n - 1) + climbStairs(n - 2);
     }
 };
 
 //  动态规划
 var climbStairs = function(n) {
-	let num = new Array(n);
-    let num[0] = [1],num[1] = [2];
-    for(let i=2;i<n; i++){
-    	num[i] =  num[i-1]*1 + num[i-2]*1;
+    let num = new Array(n);
+    num[0] = 1,num[1] = 2;
+    for (let i = 2; i < n; i++) {
+        num[i] = num[i - 1] * 1 + num[i - 2] * 1;
     }
-    return num[i-1];
+    return num[i - 1];
 };
