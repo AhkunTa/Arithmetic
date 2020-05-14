@@ -44,7 +44,7 @@ var minimumTotal = function(triangle) {
 // 以上的优化本版,优化空间复杂度 O(n)
 
 var minimumTotal = function(triangle) {
-	var dp = new Array.from(triangle.length + 1).fill(0);
+	var dp = Array.from(new Array(triangle.length +1)).fill(0);
     for (let i = triangle.length - 2; i >= 0; i--) {
         for (let j = 0; j < triangle[i].length; j++) {
              dp[j] = Math.min(dp[j],dp[j+1]) + triangle[i][j];
