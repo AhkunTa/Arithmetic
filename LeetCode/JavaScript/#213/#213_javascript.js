@@ -19,9 +19,13 @@
  * @return {number}
  */
 
+// 和打家劫舍原题 198一样的思路不过围成了一个圈
+// 循环两次 第一次循环到0 - n-1 第二次 1 - n 选择两者中最大值
+// 状态转移方程 和 198 一样
 var rob = function(nums) {
     if(nums.length == 0 ) return 0;
     if(nums.length == 1 ) return nums[0];
+    // 使用一个数组 降低空间复杂度
 	let dp = Array.from(new Array(nums.length )).fill(0);
     let maxValue;
     dp[0] = nums[0];
@@ -29,7 +33,9 @@ var rob = function(nums) {
     for(let i=2; i<nums.length-1; i++){
         dp[i] = Math.max(dp[i-1], nums[i] + dp[i-2])
     }
+    // 最大的值为length-2
     maxValue = dp[nums.length-2];
+    // 重置元素
     dp[0] = 0;
     dp[1] = nums[1]
     for(let j=2; j<nums.length; j++){
