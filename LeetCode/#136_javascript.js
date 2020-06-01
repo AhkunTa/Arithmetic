@@ -32,3 +32,20 @@ var singleNumber = function(nums) {
     }
     return a;
 };
+
+// [2,2,2,2,1]
+
+// 去重 比较
+var singleNumber = function(nums) {
+    nums.sort((a,b) => a-b )
+    //  i+ = 2 
+    for(let i =0; i< nums.length-1; i+=2){
+        // 比较前后两个数是否相等
+        if(nums[i] !== nums[i+1]){
+            return nums[i]
+        }
+    }
+    // 最后一种情况
+    // i = nums.length -2
+    return nums[nums.length - 1];
+};
