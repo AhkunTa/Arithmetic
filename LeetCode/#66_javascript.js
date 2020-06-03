@@ -39,6 +39,42 @@ var plusOne = function(digits) {
 };
 
 
+// 转化为数字 使用bigint + 1n
+
+var plusOne = function(digits) { 
+    return (BigInt(digits.join('')) + 1n).toString().split('')
+};
+
+
 
 //递归方法
+var recursivePlus = function(digits, i) {
+  if (digits[i] < 9) {
+    digits[i] += 1
+  } else {
+    digits[i] = 0
+    if (i === 0) {
+      digits.unshift(1)
+      return
+    }
+    recursivePlus(digits, i - 1)
+  }
+}
+
+/**
+ * 部分递归
+ * @param {number[]} digits
+ * @return {number[]}
+ */
+var plusOne = function(digits) {
+  const n = digits.length
+
+  if (n === 0) {
+    return []
+  }
+  recursivePlus(digits, n - 1)
+  return digits
+};
+
+// 链接：https://leetcode-cn.com/problems/plus-one/solution/javascriptdi-gui-jie-fa-by-yangtoude/
 

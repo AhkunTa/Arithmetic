@@ -26,3 +26,13 @@ var twoSum = function(nums, target) {
 
 //2 
 
+var twoSum = function(nums, target) {
+    let obj = {};
+    for(let i = 0; i < nums.length; i++ ) {
+        const diff = target - nums[i];
+        if (obj[diff] !== undefined) {
+            return [obj[diff], i];
+        }
+        obj[nums[i]] = i;
+    }
+};
