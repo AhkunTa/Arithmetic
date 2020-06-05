@@ -23,3 +23,8 @@ var reverseString = function(s) {
     }
     return s
 };
+
+var reverseString = function(s) {
+   
+    return s.reverse()
+};
