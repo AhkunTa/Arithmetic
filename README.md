@@ -64,6 +64,7 @@
 | 680 |  [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)                      |[Valid Palindrome Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)                                |javascript,| 双指针             |  eazy |
 | 746|   [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
 | 771 |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)                             |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                     |javascript,|                    |  eazy |
+| 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)             |javascript,|         双指针           |  eazy |
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 | 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
@@ -99,3 +100,14 @@
 | 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
 ----------
+
+
+#### 排序
+
+| 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)             |javascript,|         双指针           |  eazy |
+
+
+
+
+
+-------------
