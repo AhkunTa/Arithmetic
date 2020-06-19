@@ -66,6 +66,7 @@
 | 771 |  [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)                             |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                     |javascript,|                    |  eazy |
 | 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)             |javascript,|         双指针           |  eazy |
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
+| 1173|  [第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                 |[N Th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                            |javascript,|  递归           |  eazy |
 | 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
 --------
@@ -119,3 +120,6 @@
 
 
 -----------
+
+#### 递归
+| 1173|  [第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                 |[N Th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                            |javascript,|  递归           |  eazy |
