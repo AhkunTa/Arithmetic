@@ -69,11 +69,11 @@ var solution = function(isBadVersion) {
         while(left < right){
         	let mid = Math.floor((left + right) /2);
         	if(isBadVersion(mid)){
-        		right = mid-1;
+        		right = mid;
         	}else {
-        		left = mid +1;
+        		left = mid+1;
         	}
         }
-        return right;
+        return left;
     };
 };
