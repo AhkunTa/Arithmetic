@@ -102,6 +102,7 @@
 | 392 |  [判断子序列](https://leetcode-cn.com/problems/is-subsequence/)                                |[Is Subsequence](https://leetcode-cn.com/problems/is-subsequence/)                                            |javascript,| 双指针 动态规划     |  eazy |
 | 746|   [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
+| 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|javascript,|  二分           |  eazy |
 | 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
 ----------
@@ -132,5 +133,11 @@
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 1173|  [第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                 |[N Th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                            |javascript,|  递归           |  eazy |
+
+#### 二分
+
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| --- | --------- | --------  |:--------|:--------|:-------:|   
+| 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|javascript,|  二分           |  eazy |
 
 
