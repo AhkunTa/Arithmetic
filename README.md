@@ -86,7 +86,7 @@
 | 70  |  [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)                                    |[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)                                        |javascript,| 动态规划            | eazy  |
 | 120|  [三角形最小路径和](https://leetcode-cn.com/problems/triangle/)                                  |[Triangle](https://leetcode-cn.com/problems/triangle/)                                                         |javascript,|  动态规划          |  medium |
 | 121 |  [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)        |[Best Time To Buy And Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)         |javascript,|     动态规划        | eazy  |
-| 139 |  [单词拆分](https://leetcode-cn.com/problems/word-break/)                                      |[Word Break](https://leetcode-cn.com/problems/word-break/)                                             |javascript,|     动态规划         | medium  |
+| 139 |  [单词拆分](https://leetcode-cn.com/problems/word-break/)                                      |[Word Break](https://leetcode-cn.com/problems/word-break/)                                                   |javascript,|     动态规划         | medium  |
 | 140 |  [单词拆分Ⅱ](https://leetcode-cn.com/problems/word-break-ii/)                                 |[Word Break Ⅱ](https://leetcode-cn.com/problems/word-break-ii/)                                             |javascript,|     动态规划         | hard  |
 | 152 |  [乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)                 |[Maximum Product Subarray](https://leetcode-cn.com/problems/maximum-product-subarray/)                        |javascript,|  动态规划           | medium  |
 | 198 |  [打家劫舍](https://leetcode-cn.com/problems/house-robber/)                                     |[House Robber](https://leetcode-cn.com/problems/house-robber/)                                              |javascript,|    动态规划         | eazy  |
@@ -105,6 +105,7 @@
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 | 1237|  [找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|javascript,|  二分 ,双指针        |  eazy |
 | 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|javascript,|  二分           |  eazy |
+| 1337|  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                      |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                          |javascript,|  二分           |  eazy |
 | 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
 ----------
@@ -140,8 +141,9 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
-| 852|  [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[Peak Index In A Mountain Array/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                  |javascript,|  二分           |  eazy |
-| 1237|  [找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|javascript,|  二分 ,双指针        |  eazy |
-| 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|javascript,|  二分           |  eazy |
+| 852|  [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                           |[Peak Index In A Mountain Array/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                         |javascript,|  二分           |  eazy |
+| 1237|  [找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|javascript,|  二分 ,双指针     |  eazy |
+| 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)              |[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)                   |javascript,|  二分           |  eazy |
+| 1337|  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                      |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                          |javascript,|  二分           |  eazy |
 
 
