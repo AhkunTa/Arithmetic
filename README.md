@@ -100,6 +100,7 @@
 | 322 |  [零钱兑换](https://leetcode-cn.com/problems/coin-change/)                                    |[Coin Change](https://leetcode-cn.com/problems/coin-change/)                                                |javascript,|        动态规划    |  medium |
 | 337 |  [打家劫舍Ⅲ](https://leetcode-cn.com/problems/house-robber-iii/)                               |[House Robber Ⅲ](https://leetcode-cn.com/problems/house-robber-iii/)                                          |javascript,|        动态规划    |  medium |
 | 392 |  [判断子序列](https://leetcode-cn.com/problems/is-subsequence/)                                |[Is Subsequence](https://leetcode-cn.com/problems/is-subsequence/)                                            |javascript,| 双指针 动态规划     |  eazy |
+| 704|  [二分查找](https://leetcode-cn.com/problems/binary-search/)                                                     |[Binary Search](https://leetcode-cn.com/problems/binary-search/)                                                                            |javascript,|  二分           |  eazy |
 | 746|   [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
 | 852|  [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[Peak Index In A Mountain Array/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                  |javascript,|  二分           |  eazy |
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
@@ -141,6 +142,7 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
+| 704|  [二分查找](https://leetcode-cn.com/problems/binary-search/)                                                     |[Binary Search](https://leetcode-cn.com/problems/binary-search/)                                                                            |javascript,|  二分           |  eazy |
 | 852|  [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                           |[Peak Index In A Mountain Array/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                         |javascript,|  二分           |  eazy |
 | 1237|  [找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|javascript,|  二分 ,双指针     |  eazy |
 | 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)              |[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)                   |javascript,|  二分           |  eazy |
