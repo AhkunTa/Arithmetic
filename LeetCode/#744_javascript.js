@@ -70,3 +70,26 @@ var nextGreatestLetter = function(letters, target) {
 
     }
 };
+
+// 优化
+
+var nextGreatestLetter = function(letters, target) {
+
+    let left = 0, right = letters.length -1, middle;
+    // if(target >= letters[right]) return letters[0];
+    // if(target < letters[left]) return letters[0]
+    while(left <= right){
+        middle = left + Math.floor((right-left)/2);
+        // if(letters[middle] <= target && letters[middle +1] > target){
+        //     return letters[middle+1]
+        // }
+
+        if(letters[middle] >target){ 
+            right = middle - 1;
+        }else if(letters[middle] <= target){
+            left = middle + 1;
+        }
+
+    }
+    return letters[left % letters.length]
+};
