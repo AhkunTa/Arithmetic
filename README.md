@@ -54,6 +54,7 @@
 | 278 |  [第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)                      |[First Bad Version](https://leetcode-cn.com/problems/first-bad-version/)                                         |javascript,|       二分查找  |  eazy |
 | 279 |  [完全平方数](https://leetcode-cn.com/problems/perfect-squares/)                               |[Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/)                                         |javascript,|        动态规划     |  medium |
 | 283 |  [移动零](https://leetcode-cn.com/problems/move-zeroes/)                                       |[Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/)                                                  |javascript,|        双指针      |  eazy |
+| 287*|  [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)                                      |[Find The Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/)     |javascript,|  二分           |  media |
 | 303 |  [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)        |[Range Sum Query Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/)                         |javascript,|        动态规划    |  eazy |
 | 309** |  [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |[Best Time to Buy and Sell Stock with Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |javascript,|        动态规划    |  medium |
 | 322* |  [零钱兑换](https://leetcode-cn.com/problems/coin-change/)                                  |[Coin Change](https://leetcode-cn.com/problems/coin-change/)                                                  |javascript,|        动态规划    |  medium |
@@ -146,6 +147,7 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
+| 287|  [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)                                      |[Find The Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/)                                                      |javascript,|  二分           |  media |
 | 347|  [猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)                                    |[Guess Number Higher Or Lower](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)                                              |javascript,|  二分           |  eazy |
 | 475|  [供暖器](https://leetcode-cn.com/problems/heaters/)                                                             |[Heaters](https://leetcode-cn.com/problems/heaters/)                                                                                        |javascript,|  二分           |  eazy |
 | 704|  [二分查找](https://leetcode-cn.com/problems/binary-search/)                                                     |[Binary Search](https://leetcode-cn.com/problems/binary-search/)                                                                            |javascript,|  二分           |  eazy |
