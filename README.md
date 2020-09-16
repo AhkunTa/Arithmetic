@@ -111,6 +111,7 @@
 | 746|   [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
 | 852|  [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[Peak Index In A Mountain Array/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                  |javascript,|  二分           |  eazy |
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
+| 1221 |  [分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)        |[Split A String In Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) |javascript,|        贪心       |  eazy |
 | 1237|  [找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|javascript,|  二分 ,双指针        |  eazy |
 | 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|javascript,|  二分           |  eazy |
 | 1337|  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)        |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)         |javascript,|  二分           |  eazy |
@@ -161,4 +162,5 @@
 | 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)              |[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)                   |javascript,|  二分           |  eazy |
 | 1337|  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                      |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                         |javascript,|  二分           |  eazy |
 
-
+### 贪心
+| 1221 |  [分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)           |[Split A String In Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)                |javascript,|        贪心       |  eazy |
