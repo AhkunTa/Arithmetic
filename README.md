@@ -73,6 +73,7 @@
 | 744|  [寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)          |[Find Smallest Letter Greater Than Target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)      |javascript,|  二分           |  eazy |
 | 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)             |javascript,|         双指针           |  eazy |
 | 938 |  [二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/)                       |[Range Sum Of Bst](https://leetcode-cn.com/problems/range-sum-of-bst/)                                         |javascript,|   二叉树，递归           |  eazy |
+| 944 |  [删列造序](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)                      |[Delete Columns To Make Sorted](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)                           |javascript,|        贪心       |  eazy |
 | 1025|  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 | 1173|  [第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                 |[N Th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                            |javascript,|  递归           |  eazy |
 | 1431|  [拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)   |[Kids With The Greatest Number Of Candies](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)|javascript,|             |  eazy |
@@ -164,3 +165,4 @@
 
 ### 贪心
 | 1221 |  [分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)           |[Split A String In Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)                |javascript,|        贪心       |  eazy |
+| 944 |  [删列造序](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)                      |[Delete Columns To Make Sorted](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)                           |javascript,|        贪心       |  eazy |
