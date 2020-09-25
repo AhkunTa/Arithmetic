@@ -48,3 +48,22 @@ var largestSumAfterKNegations = function(A, K) {
     return res
 
 };
+
+var largestSumAfterKNegations = function (A, K) {
+  A.sort((a, b) => a - b)
+  let minIdx = 0
+  while (K > 0) {
+    A[minIdx] = -A[minIdx]
+    K--
+    // 仅当 递增排序的A数组 内有负数时 条件成立
+    // A[0] 为 负数  -A[0] 为正
+    // minIdx ++ 即
+    // A[1] 判断正负 
+    // 循环 。。。
+    if (A[minIdx + 1] < A[minIdx]) {
+      minIdx++
+    }
+  }
+
+  return A.reduce((a, b) => a + b, 0)
+}
