@@ -86,6 +86,7 @@
 | 1403 |  [非递增顺序的最小子序列](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/) |[Minimum Subsequence in Non-Increasing Order](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)        |javascript,|        贪心       |  eazy |
 | 1431|  [拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)   |[Kids With The Greatest Number Of Candies](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)|javascript,|             |  eazy |
 | 1518|  [换酒问题](https://leetcode-cn.com/problems/water-bottles/)                                    |[Water Bottles](https://leetcode-cn.com/problems/water-bottles/)                                            |javascript,|  贪心算法           |  eazy |
+| 1528|  [重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)                              |[Shuffle String](https://leetcode-cn.com/problems/shuffle-string/)                                            |javascript,|  基础排序           |  eazy |
 | 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
 --------
