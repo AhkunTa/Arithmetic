@@ -135,6 +135,7 @@
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)             |javascript,|         双指针           |  eazy |
+| 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)        |javascript,|        贪心,排序      |  eazy |
 
 
 
@@ -182,6 +183,7 @@
 | 1217 |  [玩筹码](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/) |[Minimum Cost To Move Chips To The Same Position](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/)                                                   |javascript,|        贪心       |  eazy |
 | 1221 |  [分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)           |[Split A String In Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)                |javascript,|        贪心       |  eazy |
 | 1403 |  [非递增顺序的最小子序列](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/) |[Minimum Subsequence in Non-Increasing Order](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)        |javascript,|        贪心       |  eazy |
+| 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)        |javascript,|        贪心,排序      |  eazy |
 
 ### 哈希表
 | 1282 |  [用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |[Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |javascript,|        哈希表       |  medium |
