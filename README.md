@@ -65,6 +65,7 @@
 | 384 |  [打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/)                               |[Shuffle An Array](https://leetcode-cn.com/problems/shuffle-an-array/)                                           |javascript,|     洗牌算法     |  eazy |
 | 387 |  [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) |[Intersection Of Two Arrays Ⅱ](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)      |javascript,|        哈希表          |  eazy |
 | 392 |  [判断子序列](https://leetcode-cn.com/problems/is-subsequence/)                                |[Is Subsequence](https://leetcode-cn.com/problems/is-subsequence/)                                            |javascript,| 双指针 动态规划    |  eazy |
+| 452 |  [分发饼干](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)           |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
 | 455 |  [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)                                 |[Assign Cookies](https://leetcode-cn.com/problems/assign-cookies/)                                            |javascript,|        贪心,双指针       |  eazy |
 | 475*|  [供暖器](https://leetcode-cn.com/problems/heaters/)                                                             |[Heaters](https://leetcode-cn.com/problems/heaters/)                                       |javascript,|  二分           |  eazy |
 | 680 |  [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)                      |[Valid Palindrome Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)                                |javascript,| 双指针             |  eazy |
@@ -134,6 +135,7 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
+| 452 |  [分发饼干](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)           |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
 | 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)             |javascript,|         双指针           |  eazy |
 | 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)        |javascript,|        贪心,排序      |  eazy |
 
@@ -174,6 +176,7 @@
 | 1337|  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                      |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                         |javascript,|  二分           |  eazy |
 
 ### 贪心
+| 452 |  [分发饼干](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)           |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
 | 455 |  [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)                                        |[Assign Cookies](https://leetcode-cn.com/problems/assign-cookies/)                                                      |javascript,|        贪心,双指针       |  eazy |
 | 860 |  [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)                                       |[Lemonade Change](https://leetcode-cn.com/problems/lemonade-change/)                                                 |javascript,|        贪心       |  eazy |
 | 921 |  [使括号有效的最少添加](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/) |[Minimum Add To Make Parentheses Valid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)            |javascript,|        贪心       |  medium |
