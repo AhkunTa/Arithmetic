@@ -126,6 +126,7 @@
 | 1237|  [找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|javascript,|  二分 ,双指针        |  eazy |
 | 1351|  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|javascript,|  二分           |  eazy |
 | 1337|  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)        |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)         |javascript,|  二分           |  eazy |
+| 1387 |  [将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)            |[Sort Integers By The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)       |javascript,|        排序      |  medium |
 | 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
 ----------
@@ -136,8 +137,9 @@
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 452 |  [分发饼干](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)           |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
-| 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)             |javascript,|         双指针           |  eazy |
-| 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)        |javascript,|        贪心,排序      |  eazy |
+| 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                    |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)                            |javascript,|         双指针           |  eazy |
+| 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)               |javascript,|        贪心,排序      |  eazy |
+| 1387 |  [将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)            |[Sort Integers By The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)                     |javascript,|        排序      |  medium |
 
 
 
