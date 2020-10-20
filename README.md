@@ -140,6 +140,7 @@
 | 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                    |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)                            |javascript,|         双指针           |  eazy |
 | 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)               |javascript,|        贪心,排序      |  eazy |
 | 1387 |  [将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)            |[Sort Integers By The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)                     |javascript,|        排序      |  medium |
+| 1491 |  [去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) |javascript,|        排序      |  eazy |
 
 
 
