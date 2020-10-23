@@ -93,6 +93,7 @@
 | 1518|  [换酒问题](https://leetcode-cn.com/problems/water-bottles/)                                    |[Water Bottles](https://leetcode-cn.com/problems/water-bottles/)                                            |javascript,|  贪心算法           |  eazy |
 | 1528|  [重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)                              |[Shuffle String](https://leetcode-cn.com/problems/shuffle-string/)                                            |javascript,|  基础排序           |  eazy |
 | 面试题0801|  [三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                  |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
+| 面试题17.14 | [最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)                            |[Smallest K Lcci](https://leetcode-cn.com/problems/smallest-k-lcci/)                                                            |javascript,|        排序      |  medium |
 
 --------
 
@@ -148,6 +149,7 @@
 | 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)               |javascript,|        贪心,排序      |  eazy |
 | 1387 |  [将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)            |[Sort Integers By The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)                     |javascript,|        排序      |  medium |
 | 1491 |  [去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) |javascript,|        排序      |  eazy |
+| 面试题17.14 | [最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)                            |[Smallest K Lcci](https://leetcode-cn.com/problems/smallest-k-lcci/)                                                            |javascript,|        排序      |  medium |
 
 
 
