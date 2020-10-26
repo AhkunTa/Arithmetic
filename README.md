@@ -10,6 +10,7 @@
 | 9   |  [回文数](https://leetcode-cn.com/problems/palindrome-number/)                                  |[Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/)                                    |javascript,|                    | eazy  |
 | 7   |  [整数反转](https://leetcode-cn.com/problems/reverse-integer/)                                  |[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)                                        |javascript,|                    | eazy  |
 | 8   |  [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)              |[String To Integer Atoi](https://leetcode-cn.com/problems/string-to-integer-atoi/)                           |javascript,|                    | eazy  |
+| 11  |  [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)                 |[Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/)                      |javascript,|    双指针          | medium  |
 | 13  |  [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)                           |[Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/)                                       |javascript,|                    | eazy  |
 | 14  |  [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)                        |[Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)                             |javascript,|                    | eazy  |
 | 19  |  [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)  |[Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)       |javascript,|        双指针        | media  |
@@ -202,3 +203,7 @@
 
 ### 哈希表
 | 1282 |  [用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |[Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |javascript,|        哈希表       |  medium |
+
+
+### 双指针
+| 11  |  [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)                 |[Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/)                      |javascript,|    双指针          | medium  |
