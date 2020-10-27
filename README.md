@@ -189,6 +189,8 @@
 | 1337|  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                      |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                         |javascript,|  二分           |  eazy |
 
 ### 贪心
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| --- | --------- | --------  |:--------|:--------|:-------:|   
 | 452 |  [分发饼干](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)           |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
 | 455 |  [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)                                        |[Assign Cookies](https://leetcode-cn.com/problems/assign-cookies/)                                                      |javascript,|        贪心,双指针       |  eazy |
 | 860 |  [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)                                       |[Lemonade Change](https://leetcode-cn.com/problems/lemonade-change/)                                                 |javascript,|        贪心       |  eazy |
@@ -202,8 +204,22 @@
 | 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)        |javascript,|        贪心,排序      |  eazy |
 
 ### 哈希表
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| --- | --------- | --------  |:--------|:--------|:-------:|   
 | 1282 |  [用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |[Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |javascript,|        哈希表       |  medium |
 
 
 ### 双指针
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| --- | --------- | --------  |:--------|:--------|:-------:|   
 | 11  |  [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)                 |[Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/)                      |javascript,|    双指针          | medium  |
+
+### 回溯算法
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| --- | --------- | --------  |:--------|:--------|:-------:|   
+| 39  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
+| 40  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
+| 46  |  []()                 |[]()                      |javascript,|    回溯，递归         |   |
+| 47  |  []()                 |[]()                      |javascript,|    回溯，递归         |   |
+| 78  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
+| 90  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
