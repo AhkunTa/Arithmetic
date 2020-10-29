@@ -61,3 +61,23 @@ var combinationSum = function(candidates, target) {
 };
 
 // https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-leetcode-solution/
+
+
+var combinationSum = function(candidates, target) {
+
+    let res = []
+    let dfs = ( number, tempArray ,index)=>{
+        if(number  <= 0){
+        	if(number == 0){
+				res.push(tempArray)
+	       	}
+	        return
+        }
+       	
+    	for(let i=index; i<candidates.length; i++){
+    		dfs( number - candidates[i], [...tempArray,candidates[i]]   ,i)
+    	}
+    }
+    dfs(target,[],0);
+    return res
+};
