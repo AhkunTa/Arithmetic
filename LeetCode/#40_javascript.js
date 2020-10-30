@@ -55,7 +55,6 @@ var combinationSum2 = function(candidates, target) {
         }
     	for(let i=index; i<candidates.length; i++){
     		// 和 39题的差别主要在这里去重判断
-    		// 
             if( i > index && candidates[i-1] == candidates[i]) continue
            	// 递归过程和 39 基本一样 最后一项参数索引+1 使其不向下递归
     		dfs( number - candidates[i], [...tempArray,candidates[i]]   ,i+1)
