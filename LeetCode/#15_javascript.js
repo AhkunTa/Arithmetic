@@ -87,6 +87,7 @@ var threeSum = function(nums) {
             
             if(sum == 0){
                 res.push([nums[i] , nums[left], nums[right]])
+                // 此处去重
                 while(left < right && nums[left] == nums[left+1]){
                     left ++;
                 }
