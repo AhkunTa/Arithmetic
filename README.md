@@ -24,7 +24,7 @@
 | 39  |  [组合总和](https://leetcode-cn.com/problems/combination-sum/)                                  |[Combination Sum](https://leetcode-cn.com/problems/combination-sum/)                                       |javascript,|    回溯，递归          |   |
 | 40  |  [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)                            |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)                                |javascript,|    回溯，递归          | medium  |
 | 46  |  [全排列](https://leetcode-cn.com/problems/permutations/)                                       |[Permutations](https://leetcode-cn.com/problems/permutations/)                                           |javascript,|    回溯，递归         |   |
-| 47  |  [全排列 II](https://leetcode-cn.com/problems/permutations-ii/submissions/)                 |[Submissions](https://leetcode-cn.com/problems/permutations-ii/submissions/)                                   |javascript,|    回溯，递归         |  medium |
+| 47**|  [全排列 II](https://leetcode-cn.com/problems/permutations-ii/submissions/)                 |[Submissions](https://leetcode-cn.com/problems/permutations-ii/submissions/)                                   |javascript,|    回溯，递归         |  medium |
 | 53  |  [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)                               |[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                      |javascript,|    动态规划 分治法   |  eazy |
 | 58  |  [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)                     |[Length Of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)                                |javascript,|                    | eazy  |
 | 62  |  [不同路径](https://leetcode-cn.com/problems/unique-paths/)                                  |[Unique Paths](https://leetcode-cn.com/problems/unique-paths/)                                                 |javascript,|    动态规划        |  medium |
@@ -223,9 +223,13 @@
 ### 回溯算法
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
-| 39  |  [组合总和](https://leetcode-cn.com/problems/combination-sum/)                      |[Combination Sum](https://leetcode-cn.com/problems/combination-sum/)                      |javascript,|    回溯，递归          | medium  |
-| 40  |  [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)                 |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)           |javascript,|    回溯，递归          | medium  |
-| 46  |  [全排列](https://leetcode-cn.com/problems/permutations/)                              |[Permutations](https://leetcode-cn.com/problems/permutations/)                      |javascript,|    回溯，递归         |  medium |
-| 47  |  [全排列 II](https://leetcode-cn.com/problems/permutations-ii/submissions/)                 |[Submissions](https://leetcode-cn.com/problems/permutations-ii/submissions/)                      |javascript,|    回溯，递归         |  medium |
-| 78  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
-| 90  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
+| 39  |  [组合总和](https://leetcode-cn.com/problems/combination-sum/)                       |[Combination Sum](https://leetcode-cn.com/problems/combination-sum/)                   |javascript,|    回溯，递归          | medium  |
+| 40  |  [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)                 |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)            |javascript,|    回溯，递归          | medium  |
+| 46  |  [全排列](https://leetcode-cn.com/problems/permutations/)                            |[Permutations](https://leetcode-cn.com/problems/permutations/)                       |javascript,|    回溯，递归         |  medium |
+| 47  |  [全排列 II](https://leetcode-cn.com/problems/permutations-ii/submissions/)          |[Submissions](https://leetcode-cn.com/problems/permutations-ii/submissions/)         |javascript,|    回溯，递归         |  medium |
+| 77  |  [组合](https://leetcode-cn.com/problems/combinations/)                              |[Combinations](https://leetcode-cn.com/problems/combinations/)                       |javascript,|    回溯，递归          | medium  |
+| 78  |  [子集](https://leetcode-cn.com/problems/subsets/)                                   |[Subsets](https://leetcode-cn.com/problems/subsets/)                                     |javascript,|    回溯，递归          |  medium |
+| 79  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
+| 90  |  [子集 II](https://leetcode-cn.com/problems/subsets-ii/)                              |[Subsets II](https://leetcode-cn.com/problems/subsets-ii/)                             |javascript,|    回溯，递归          |   |
+| 784  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
+| 剑指 Offer 38 |  [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)  |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)      |javascript,|    回溯，递归          |  medium |
