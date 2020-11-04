@@ -32,7 +32,9 @@ var subsetsWithDup = function(nums) {
         }
 
         for(let i=index; i<nums.length; i++){
-            if(i>0 && nums[i] == nums[i-1] && visit[i-1] == false || visit[i]) continue;
+            if(i>0 && nums[i] == nums[i-1] && visit[i-1] == false) continue;
+            // 优化 以上判断
+            // if(i>index && nums[i] == nums[i-1]) continue;
             visit[i] = true;
             dfs( [...tempArray,nums[i]],i+1);
             visit[i] = false;
@@ -42,3 +44,4 @@ var subsetsWithDup = function(nums) {
     dfs([],0);
     return res;
 };
+
