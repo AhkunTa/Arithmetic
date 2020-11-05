@@ -45,3 +45,5 @@ var subsetsWithDup = function(nums) {
     return res;
 };
 
+// 全排列 即 47题中需要搜索全部排列选项所以下一步递归循环从0开始
+// 而子集从 i+1 开始
