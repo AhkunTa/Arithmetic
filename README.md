@@ -17,6 +17,7 @@
 | 17  |  [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |[Letter Combinations Of A Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|javascript,|    回溯，递归          | medium  |
 | 19  |  [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)  |[Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)       |javascript,|        双指针        | media  |
 | 20  |  [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)                              |[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)                                     |javascript,|                    | eazy  |
+| 22  |  [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)                          |[Generate Parenthesesr](https://leetcode-cn.com/problems/generate-parentheses/)           |javascript,|    回溯，递归          | medium  |
 | 26  |  [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |javascript,|                    | eazy  |
 | 27  |  [移除元素](https://leetcode-cn.com/problems/remove-element/)                                   |[Remove Element](https://leetcode-cn.com/problems/remove-element/)                                          |javascript,|                     | eazy  |
 | 28** |  [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)                           |[Implement Strstr](https://leetcode-cn.com/problems/implement-strstr/)                                      |javascript,|       kmp**         | eazy  |
@@ -231,16 +232,17 @@
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 17  |  [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |[Letter Combinations Of A Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|javascript,|    回溯，递归          | medium  |
+| 22  |  [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)                  |[Generate Parenthesesr](https://leetcode-cn.com/problems/generate-parentheses/)           |javascript,|    回溯，递归          | medium  |
 | 39  |  [组合总和](https://leetcode-cn.com/problems/combination-sum/)                       |[Combination Sum](https://leetcode-cn.com/problems/combination-sum/)                   |javascript,|    回溯，递归          | medium  |
-| 40  |  [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)                 |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)            |javascript,|    回溯，递归          | medium  |
-| 46  |  [全排列](https://leetcode-cn.com/problems/permutations/)                            |[Permutations](https://leetcode-cn.com/problems/permutations/)                       |javascript,|    回溯，递归         |  medium |
-| 47  |  [全排列 II](https://leetcode-cn.com/problems/permutations-ii/)                    |[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)                   |javascript,|    回溯，递归         |  medium |
+| 40  |  [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)                 |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)                |javascript,|    回溯，递归          | medium  |
+| 46  |  [全排列](https://leetcode-cn.com/problems/permutations/)                            |[Permutations](https://leetcode-cn.com/problems/permutations/)                           |javascript,|    回溯，递归         |  medium |
+| 47  |  [全排列 II](https://leetcode-cn.com/problems/permutations-ii/)                    |[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)                           |javascript,|    回溯，递归         |  medium |
 | 60  |  [排列序列](https://leetcode-cn.com/problems/permutation-sequence/)                 |[Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/)                |javascript,|    回溯，递归          | hard  |
-| 77  |  [组合](https://leetcode-cn.com/problems/combinations/)                              |[Combinations](https://leetcode-cn.com/problems/combinations/)                       |javascript,|    回溯，递归          | medium  |
+| 77  |  [组合](https://leetcode-cn.com/problems/combinations/)                              |[Combinations](https://leetcode-cn.com/problems/combinations/)                              |javascript,|    回溯，递归          | medium  |
 | 78  |  [子集](https://leetcode-cn.com/problems/subsets/)                                   |[Subsets](https://leetcode-cn.com/problems/subsets/)                                     |javascript,|    回溯，递归          |  medium |
 | 79  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
-| 90  |  [子集 II](https://leetcode-cn.com/problems/subsets-ii/)                              |[Subsets II](https://leetcode-cn.com/problems/subsets-ii/)                             |javascript,|    回溯，递归          |  medium |
+| 90  |  [子集 II](https://leetcode-cn.com/problems/subsets-ii/)                              |[Subsets II](https://leetcode-cn.com/problems/subsets-ii/)                                 |javascript,|    回溯，递归          |  medium |
 | 93  |  [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)                    |[Restore Ip Addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)         |javascript,|    回溯，递归          | medium  |
 | 216  |  [组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/)                 |[Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/)            |javascript,|    回溯，递归          | medium  |
 | 784  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
-| 剑指 Offer 38 |  [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)  |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)      |javascript,|    回溯，递归          |  medium |
+| 剑指 Offer 38 |  [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)  |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)           |javascript,|    回溯，递归          |  medium |
