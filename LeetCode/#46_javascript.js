@@ -37,3 +37,25 @@ var permute = function(nums) {
     dfs([]);
     return res;
 };
+
+
+// 优化时间复杂度
+var permute = function(nums) {
+
+    let res = [];
+    let visited = new Array(nums.length).fill(false)
+    dfs=(tempArray) =>{
+        if(tempArray.length == nums.length){
+            res.push(tempArray);
+            return;
+        }
+        for(let i=0; i<nums.length; i++){
+            if(visited[i]) continue
+            visited[i] = true
+            dfs( [...tempArray,nums[i]]);
+            visited[i] = false
+        }
+    }
+    dfs([]);
+    return res;
+};
