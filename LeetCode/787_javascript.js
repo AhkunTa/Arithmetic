@@ -61,14 +61,29 @@ var findCheapestPrice = function(n, flights, src, dst, K) {
   return minPrice == Infinity ? -1 : minPrice;
 };
 
-// 动态规划 dp
+// 动态规划 dp  **
 
+var findCheapestPrice = function(n, flights, src, dst, K) {
 
+  let dp = Array.from(new Array(n),() => new Array(flights.length).fill(Infinity))
 
+  for (let i = 0; i < flights.length; i++) {
+    if (flights[i][0] === src) {
+      dp[flights[i][1]][0] = flights[i][2];
+    }
+  }
 
+  for (let k = 1; k <= K; k++) {
+    for (let flight of flights) {
+      if (flight[0] !== Infinity) {
+        dp[flight[1]][k] = Math.min(dp[flight[1]][k], dp[flight[0]][k - 1] + flight[2]);
+      }
+    }
+  }
+  
+  return dp[dst][K] === Infinity ? -1 : dp[dst][K];
 
-
-
+};
 
 
 
