@@ -88,6 +88,7 @@
 | 744|  [寻找比目标字母大的最小字母](./LeetCode/744_javascript.js)                         |[Find Smallest Letter Greater Than Target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)      |javascript,|  二分           |  eazy |
 | 746|   [使用最小花费爬楼梯](./LeetCode/746_javascript.js)                               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
 | 771 |  [宝石与石头](./LeetCode/771_javascript.js)                                       |[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)                                     |javascript,|                    |  eazy |
+| 787 |  [K 站中转内最便宜的航班](./LeetCode/787_javascript.js)                              |[Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)    |javascript,|    回溯，递归 ，动态规划 ，贪心算法  |  medium |
 | 860 |  [柠檬水找零](./LeetCode/860_javascript.js)                                       |[Lemonade Change](https://leetcode-cn.com/problems/lemonade-change/)                                  |javascript,|        贪心       |  eazy |
 | 921 |  [使括号有效的最少添加](./LeetCode/921_javascript.js)                              |[Minimum Add To Make Parentheses Valid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)|javascript,|        贪心       |  medium |
 | 922 |  [按奇偶排序数组 II](./LeetCode/922_javascript.js)                                |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)             |javascript,|         双指针           |  eazy |
@@ -97,7 +98,7 @@
 | 1005 |  [K 次取反后最大化的数组和](./LeetCode/1005_javascript.js)                        |[Maximize Sum Of Array After K Negations](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/)    |javascript,|        贪心       |  eazy |
 | 1025|  [除数博弈](./LeetCode/1025_javascript.js)                                       |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 | 1046 |  [非递增顺序的最小子序列](./LeetCode/1046_javascript.js)                          |[Last Stone Weight](https://leetcode-cn.com/problems/last-stone-weight/)                                  |javascript,|        贪心       |  eazy |
-| 1079 |  [活字印刷](./LeetCode/1079_javascript.js)                                    |[Letter Tile Possibilities](https://leetcode-cn.com/problems/letter-tile-possibilities/)    |javascript,|    回溯，递归          |  medium |
+| 1079 |  [活字印刷](./LeetCode/1079_javascript.js)                                     |[Letter Tile Possibilities](https://leetcode-cn.com/problems/letter-tile-possibilities/)    |javascript,|    回溯，递归          |  medium |
 | 1173|  [第 N 个泰波那契数](./LeetCode/1173_javascript.js)                               |[N Th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                            |javascript,|  递归           |  eazy |
 | 1217 |  [玩筹码](./LeetCode/1217_javascript.js)                                        |[Minimum Cost To Move Chips To The Same Position](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|javascript,|        贪心       |  eazy |
 | 1282 |  [用户分组](./LeetCode/1282_javascript.js)                                       |[Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |javascript,|        哈希表       |  medium |
@@ -141,14 +142,15 @@
 | 392 |  [判断子序列](https://leetcode-cn.com/problems/is-subsequence/)                                |[Is Subsequence](https://leetcode-cn.com/problems/is-subsequence/)                                            |javascript,| 双指针 动态规划     |  eazy |
 | 704 |  [二分查找](https://leetcode-cn.com/problems/binary-search/)                                   |[Binary Search](https://leetcode-cn.com/problems/binary-search/)                              |javascript,|  二分           |  eazy |
 | 746 |  [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)               |[min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                       |javascript,|  动态规划           |  eazy |
-| 852 |  [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)|[Peak Index In A Mountain Array/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                  |javascript,|  二分           |  eazy |
+| 787 |  [K 站中转内最便宜的航班](./LeetCode/787_javascript.js)                                       |[Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)    |javascript,|    回溯，递归 ，动态规划 ，贪心算法  |  medium |
+| 852 |  [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)       |[Peak Index In A Mountain Array/](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                  |javascript,|  二分           |  eazy |
 | 1025 |  [除数博弈](https://leetcode-cn.com/problems/divisor-game/)                                    |[Divisor Game](https://leetcode-cn.com/problems/divisor-game/)                                               |javascript,|  动态规划           |  eazy |
 | 1221 |  [分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)        |[Split A String In Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) |javascript,|        贪心       |  eazy |
 | 1237 |  [找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)|javascript,|  二分 ,双指针        |  eazy |
 | 1351 |  [统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)|javascript,|  二分           |  eazy |
 | 1337 |  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)        |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)         |javascript,|  二分           |  eazy |
 | 1387 |  [将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)            |[Sort Integers By The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)       |javascript,|        排序      |  medium |
-| 面试题0801|  [三步问题](./LeetCode/面试题08.01_javascript.js)                       |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
+| 面试题0801|  [三步问题](./LeetCode/面试题08.01_javascript.js)                                             |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 
 ----------
 
@@ -157,15 +159,15 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
-| 75 |  [颜色分类](https://leetcode-cn.com/problems/sort-colors/)                                           |[Sort Colors](https://leetcode-cn.com/problems/sort-colors/)                                                               |javascript,|        双指针,排序       |  medium |
-| 179 |  [最大数](https://leetcode-cn.com/problems/largest-number/)                                    |[Largest Number](https://leetcode-cn.com/problems/largest-number/)                                                             |javascript,|      排序            | medium  |
-| 452 |  [分发饼干](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)           |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
-| 922 |  [按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)                    |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)                            |javascript,|         双指针           |  eazy |
-| 937 |  [最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/)                      |[K Closest Points To Origin](https://leetcode-cn.com/problems/k-closest-points-to-origin/)                            |javascript,|        排序，分治*       |  medium |
-| 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)               |javascript,|        贪心,排序      |  eazy |
-| 1387 |  [将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)            |[Sort Integers By The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)                     |javascript,|        排序      |  medium |
-| 1491 |  [去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) |javascript,|        排序      |  eazy |
-| 面试题17.14 | [最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)                            |[Smallest K Lcci](https://leetcode-cn.com/problems/smallest-k-lcci/)                                                            |javascript,|        排序      |  medium |
+| 75 |  [颜色分类](./LeetCode/75_javascript.js)                                                           |[Sort Colors](https://leetcode-cn.com/problems/sort-colors/)                                                               |javascript,|        双指针,排序       |  medium |
+| 179 |  [最大数](./LeetCode/179_javascript.js)                                                           |[Largest Number](https://leetcode-cn.com/problems/largest-number/)                                                             |javascript,|      排序            | medium  |
+| 452 |  [分发饼干](./LeetCode/452_javascript.js)                                                         |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
+| 922 |  [按奇偶排序数组 II](./LeetCode/922_javascript.js)                                                 |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)                            |javascript,|         双指针           |  eazy |
+| 937 |  [最接近原点的 K 个点](./LeetCode/937_javascript.js)                                               |[K Closest Points To Origin](https://leetcode-cn.com/problems/k-closest-points-to-origin/)                            |javascript,|        排序，分治*       |  medium |
+| 1561 |  [你可以获得的最大硬币数目](./LeetCode/1561_javascript.js)                                         |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)               |javascript,|        贪心,排序      |  eazy |
+| 1387 |  [将整数按权重排序](./LeetCode/1387_javascript.js)                                                 |[Sort Integers By The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)                     |javascript,|        排序      |  medium |
+| 1491 |  [去掉最低工资和最高工资后的工资平均值](./LeetCode/1491_javascript.js)                               |[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) |javascript,|        排序      |  eazy |
+| 面试题17.14 | [最小K个数](./LeetCode/面试题17.14_javascript.js)                                            |[Smallest K Lcci](https://leetcode-cn.com/problems/smallest-k-lcci/)                                                            |javascript,|        排序      |  medium |
 
 
 
@@ -175,8 +177,7 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
-| 237 |  [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)           |[Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)                |javascript,|        链表        |  eazy |
-
+| 237 |  [删除链表中的节点](./LeetCode/237_javascript.js)                                                  |[Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)                |javascript,|        链表        |  eazy |
 
 
 -----------
@@ -208,6 +209,7 @@
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 452 |  [分发饼干](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)           |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
 | 455 |  [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)                                        |[Assign Cookies](https://leetcode-cn.com/problems/assign-cookies/)                                                      |javascript,|        贪心,双指针       |  eazy |
+| 787 |  [K 站中转内最便宜的航班](./LeetCode/787_javascript.js)                              |[Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)    |javascript,|    回溯，递归 ，动态规划 ，贪心算法  |  medium |
 | 860 |  [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)                                       |[Lemonade Change](https://leetcode-cn.com/problems/lemonade-change/)                                                 |javascript,|        贪心       |  eazy |
 | 921 |  [使括号有效的最少添加](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/) |[Minimum Add To Make Parentheses Valid](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid/)            |javascript,|        贪心       |  medium |
 | 944 |  [删列造序](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)                      |[Delete Columns To Make Sorted](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)                           |javascript,|        贪心       |  eazy |
@@ -233,20 +235,21 @@
 ### 回溯算法
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
-| 17  |  [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |[Letter Combinations Of A Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|javascript,|    回溯，递归          | medium  |
-| 22  |  [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)                  |[Generate Parenthesesr](https://leetcode-cn.com/problems/generate-parentheses/)           |javascript,|    回溯，递归          | medium  |
-| 39  |  [组合总和](https://leetcode-cn.com/problems/combination-sum/)                       |[Combination Sum](https://leetcode-cn.com/problems/combination-sum/)                   |javascript,|    回溯，递归          | medium  |
-| 40  |  [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)                 |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)                |javascript,|    回溯，递归          | medium  |
-| 46  |  [全排列](https://leetcode-cn.com/problems/permutations/)                            |[Permutations](https://leetcode-cn.com/problems/permutations/)                           |javascript,|    回溯，递归         |  medium |
-| 47  |  [全排列 II](https://leetcode-cn.com/problems/permutations-ii/)                    |[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)                           |javascript,|    回溯，递归         |  medium |
-| 60  |  [排列序列](https://leetcode-cn.com/problems/permutation-sequence/)                 |[Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/)                |javascript,|    回溯，递归          | hard  |
-| 77  |  [组合](https://leetcode-cn.com/problems/combinations/)                              |[Combinations](https://leetcode-cn.com/problems/combinations/)                              |javascript,|    回溯，递归          | medium  |
-| 78  |  [子集](https://leetcode-cn.com/problems/subsets/)                                   |[Subsets](https://leetcode-cn.com/problems/subsets/)                                     |javascript,|    回溯，递归          |  medium |
-| 79  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
-| 90  |  [子集 II](https://leetcode-cn.com/problems/subsets-ii/)                              |[Subsets II](https://leetcode-cn.com/problems/subsets-ii/)                                 |javascript,|    回溯，递归          |  medium |
-| 93  |  [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)                    |[Restore Ip Addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)         |javascript,|    回溯，递归          | medium  |
-| 216  |  [组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/)                 |[Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/)            |javascript,|    回溯，递归          | medium  |
-| 784  |  []()                 |[]()                      |javascript,|    回溯，递归          |   |
-| 1079 |  [活字印刷](./LeetCode/1079_javascript.js)                              |[Letter Tile Possibilities](https://leetcode-cn.com/problems/letter-tile-possibilities/)    |javascript,|    回溯，递归          |  medium |
-| 1415  | [长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)   |[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|javascript,|    回溯，递归          |  medium |
-| 剑指 Offer 38 |  [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)  |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)           |javascript,|    回溯，递归          |  medium |
+| 17  |  [电话号码的字母组合](./LeetCode/17_javascript.js)                                |[Letter Combinations Of A Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|javascript,|    回溯，递归          | medium  |
+| 22  |  [括号生成](./LeetCode/22_javascript.js)                                         |[Generate Parenthesesr](https://leetcode-cn.com/problems/generate-parentheses/)           |javascript,|    回溯，递归          | medium  |
+| 39  |  [组合总和](./LeetCode/39_javascript.js)                                         |[Combination Sum](https://leetcode-cn.com/problems/combination-sum/)                   |javascript,|    回溯，递归          | medium  |
+| 40  |  [组合总和 II](./LeetCode/40_javascript.js)                                      |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)                |javascript,|    回溯，递归          | medium  |
+| 46  |  [全排列](./LeetCode/46_javascript.js)                                           |[Permutations](https://leetcode-cn.com/problems/permutations/)                           |javascript,|    回溯，递归         |  medium |
+| 47  |  [全排列 II](./LeetCode/47_javascript.js)                                        |[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)                           |javascript,|    回溯，递归         |  medium |
+| 60  |  [排列序列](./LeetCode/60_javascript.js)                                         |[Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/)                |javascript,|    回溯，递归          | hard  |
+| 77  |  [组合](./LeetCode/77_javascript.js)                                             |[Combinations](https://leetcode-cn.com/problems/combinations/)                              |javascript,|    回溯，递归          | medium  |
+| 78  |  [子集](./LeetCode/78_javascript.js)                                             |[Subsets](https://leetcode-cn.com/problems/subsets/)                                     |javascript,|    回溯，递归          |  medium |
+| 79  |  [单词搜索](./LeetCode/79_javascript.js)                                          |[Word Search](https://leetcode-cn.com/problems/word-search/)                                 |javascript,|    回溯，递归          |  medium |
+| 90  |  [子集 II](./LeetCode/90_javascript.js)                                          |[Subsets II](https://leetcode-cn.com/problems/subsets-ii/)                                 |javascript,|    回溯，递归          |  medium |
+| 93  |  [复原IP地址](./LeetCode/93_javascript.js)                                       |[Restore Ip Addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)         |javascript,|    回溯，递归          | medium  |
+| 216 |  [组合总和 III](./LeetCode/216_javascript.js)                                    |[Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/)            |javascript,|    回溯，递归          | medium  |
+| 784 |  []()                 |[]()                      |javascript,|    回溯，递归                                  |   |
+| 787 |  [K 站中转内最便宜的航班](./LeetCode/787_javascript.js)                              |[Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)    |javascript,|    回溯，递归 ，动态规划 ，贪心算法  |  medium |
+| 1079 |  [活字印刷](./LeetCode/1079_javascript.js)                                         |[Letter Tile Possibilities](https://leetcode-cn.com/problems/letter-tile-possibilities/)    |javascript,|    回溯，递归          |  medium |
+| 1415 | [长度为 n 的开心字符串中字典序第 k 小的字符串](./LeetCode/1415_javascript.js)         |[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|javascript,|    回溯，递归          |  medium |
+| 剑指 Offer 38 |  [字符串的排列](./LeetCode/剑指Offer38_javascript.js)                      |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)           |javascript,|    回溯，递归          |  medium |

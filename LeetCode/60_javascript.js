@@ -84,6 +84,9 @@ var getPermutation = function(n, k) {
             return;
         }
         for(let i=0; i<n; i++){
+            // 找到值 后续递归直接return 
+            // 加上这一行代码效率能提升一倍
+            if(resString) return;
 
             if( visited[i] == true ) continue;
             visited[i] = true;
