@@ -63,16 +63,39 @@ var findCheapestPrice = function(n, flights, src, dst, K) {
 
 // 动态规划 dp  **
 
+// 以 n = 3, edges = [[0,1,100],[1,2,100],[0,2,500]]
+// src = 0, dst = 2, k = 1  举例
+ 
+//       0             1               2
+// 0     
+// 1
+// 2
+
+// [
+//   [0,Infinity,Infinity],
+//   [200,Infinity,Infinity],
+//   [500,Infinity,Infinity] 
+// ]
+
+
+
+
+
 var findCheapestPrice = function(n, flights, src, dst, K) {
 
+  // 初始化dp数组
   let dp = Array.from(new Array(n),() => new Array(flights.length).fill(Infinity))
-
+  
   for (let i = 0; i < flights.length; i++) {
     if (flights[i][0] === src) {
       dp[flights[i][1]][0] = flights[i][2];
     }
   }
 
+  for (let i = 0; i < K; i++) {
+    dp[src][i] = 0;
+  }
+  
   for (let k = 1; k <= K; k++) {
     for (let flight of flights) {
       if (flight[0] !== Infinity) {
