@@ -27,6 +27,7 @@
 | 40  |  [组合总和 II](./LeetCode/40_javascript.js)                                           |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)                                |javascript,|    回溯，递归          | medium  |
 | 46  |  [全排列](./LeetCode/46_javascript.js)                                               |[Permutations](https://leetcode-cn.com/problems/permutations/)                                           |javascript,|    回溯，递归         |   |
 | 47**|  [全排列 II](./LeetCode/47_javascript.js)                                            |[Submissions](https://leetcode-cn.com/problems/permutations-ii/submissions/)                                   |javascript,|    回溯，递归         |  medium |
+| 51  |  [N 皇后](./LeetCode/51_javascript.js)                                              |[N-Queens](https://leetcode-cn.com/problems/n-queens/)                                       |javascript,|    回溯，递归          | hard  |
 | 53  |  [最大子序和](./LeetCode/53_javascript.js)                                            |[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                      |javascript,|    动态规划 分治法   |  eazy |
 | 58  |  [最后一个单词的长度](./LeetCode/58_javascript.js)                                    |[Length Of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)                                |javascript,|                    | eazy  |
 | 60  |  [排列序列](./LeetCode/60_javascript.js)                                             |[Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/)                                 |javascript,|    回溯，递归          | hard  |
@@ -112,7 +113,8 @@
 | 1528|  [重新排列字符串](./LeetCode/1528_javascript.js)                                  |[Shuffle String](https://leetcode-cn.com/problems/shuffle-string/)                                            |javascript,|  基础排序           |  eazy |
 | 面试题0801|  [三步问题](./LeetCode/面试题08.01_javascript.js)                           |[Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                         |javascript,|  动态规划           |  eazy |
 | 面试题17.14 | [最小K个数](./LeetCode/面试题17.14_javascript.js)                         |[Smallest K Lcci](https://leetcode-cn.com/problems/smallest-k-lcci/)                                        |javascript,|        排序      |  medium |
-| 剑指 Offer 38 |  [字符串的排列](./LeetCode/剑指Offer38_javascript.js)                   |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)                                          |javascript,|    回溯，递归          |  medium |
+| 剑指 Offer 38 | [字符串的排列](./LeetCode/剑指Offer38_javascript.js)                   |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)                                          |javascript,|    回溯，递归          |  medium |
+| 面试题 08.12. 八皇后 | [面试题 08.12. 八皇后](./LeetCode/51_javascript.js)               |[Eight Queens Lcci](https://leetcode-cn.com/problems/eight-queens-lcci/)                                    |javascript,|    回溯，递归          | hard  |
 
 --------
 
@@ -243,6 +245,7 @@
 | 40  |  [组合总和 II](./LeetCode/40_javascript.js)                                      |[Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)                |javascript,|    回溯，递归          | medium  |
 | 46  |  [全排列](./LeetCode/46_javascript.js)                                           |[Permutations](https://leetcode-cn.com/problems/permutations/)                           |javascript,|    回溯，递归         |  medium |
 | 47  |  [全排列 II](./LeetCode/47_javascript.js)                                        |[Permutations II](https://leetcode-cn.com/problems/permutations-ii/)                           |javascript,|    回溯，递归         |  medium |
+| 51  |  [N 皇后](./LeetCode/51_javascript.js)                                          |[N-Queens](https://leetcode-cn.com/problems/n-queens/)                                       |javascript,|    回溯，递归          | hard  |
 | 60  |  [排列序列](./LeetCode/60_javascript.js)                                         |[Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/)                |javascript,|    回溯，递归          | hard  |
 | 77  |  [组合](./LeetCode/77_javascript.js)                                             |[Combinations](https://leetcode-cn.com/problems/combinations/)                              |javascript,|    回溯，递归          | medium  |
 | 78  |  [子集](./LeetCode/78_javascript.js)                                             |[Subsets](https://leetcode-cn.com/problems/subsets/)                                     |javascript,|    回溯，递归          |  medium |
@@ -256,3 +259,4 @@
 | 1079 |  [活字印刷](./LeetCode/1079_javascript.js)                                         |[Letter Tile Possibilities](https://leetcode-cn.com/problems/letter-tile-possibilities/)    |javascript,|    回溯，递归          |  medium |
 | 1415 | [长度为 n 的开心字符串中字典序第 k 小的字符串](./LeetCode/1415_javascript.js)         |[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|javascript,|    回溯，递归          |  medium |
 | 剑指 Offer 38 |  [字符串的排列](./LeetCode/剑指Offer38_javascript.js)                      |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)           |javascript,|    回溯，递归          |  medium |
+| 面试题 08.12. 八皇后 |  [面试题 08.12. 八皇后](./LeetCode/51_javascript.js)                 |[Eight Queens Lcci](https://leetcode-cn.com/problems/eight-queens-lcci/)               |javascript,|    回溯，递归          | hard  |
