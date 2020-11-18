@@ -18,40 +18,88 @@
  * @param {number} n
  * @return {string[][]}
  */
-var solveNQueens = function(n) {
+var solveNQueens = function (n) {
 
   let res = [];
   let arr = Array.from(new Array(n), value => new Array(n).fill('.'));
 
-  let isValid = (row ,col) =>{
-      for(let i=0; i<row; i++){
-          for(let j=0; j<n; j++){
-              if( arr[i][j] == 'Q' && (j == col || i - j == row - col || i+j == row +col)  ){
-                  return false
-              }
-          }
+  let isValid = (row, col) => {
+    for (let i = 0; i < row; i++) {
+      for (let j = 0; j < n; j++) {
+        if (arr[i][j] == 'Q' && (j == col || i - j == row - col || i + j == row + col)) {
+          return false
+        }
       }
-      return true;
+    }
+    return true;
   }
 
-  let dfs = (row)=>{
-      if(row == n){
-          let tempArr = arr.slice();
-          for (let i = 0; i < n; i++) {
-              tempArr[i] = tempArr[i].join('');
-          }
-          res.push(tempArr);
-          return;
+  let dfs = (row) => {
+    if (row == n) {
+      let tempArr = arr.slice();
+      for (let i = 0; i < n; i++) {
+        tempArr[i] = tempArr[i].join('');
       }
-      for(let i=0 ;i<n; i++){
-          if(isValid(row,i)){
-              arr[row][i] ='Q';
-              dfs(row + 1);
-              arr[row][i] ='.';
-          }
+      res.push(tempArr);
+      return;
+    }
+    for (let i = 0; i < n; i++) {
+      if (isValid(row, i)) {
+        arr[row][i] = 'Q';
+        dfs(row + 1);
+        arr[row][i] = '.';
       }
+    }
   }
   dfs(0);
   return res;
 };
 // 题解 https://leetcode-cn.com/problems/n-queens/solution/shou-hua-tu-jie-cong-jing-dian-de-nhuang-hou-wen-t/
+
+// 使用hash值优化
+
+var solveNQueens = function (n) {
+
+  let res = [];
+  let arr = Array.from(new Array(n), value => new Array(n).fill('.'));
+
+  // let isValid = (row ,col) =>{
+  //     for(let i=0; i<row; i++){
+  //         for(let j=0; j<n; j++){
+  //             if( arr[i][j] == 'Q' && (j == col || i - j == row - col || i+j == row +col)  ){
+  //                 return false
+  //             }
+  //         }
+  //     }
+  //     return true;
+  // }
+
+  let colSet = new Set();
+  let diagonaSet1 = new Set();
+  let diagonaSet2 = new Set();
+  let dfs = (row) => {
+    if (row == n) {
+      let tempArr = arr.slice();
+      for (let i = 0; i < n; i++) {
+        tempArr[i] = tempArr[i].join('');
+      }
+      res.push(tempArr);
+      return;
+    }
+    for (let i = 0; i < n; i++) {
+      if(!colSet.has(i) &&!diagonaSet1.has(row+i) && !diagonaSet2.has(row-i)){
+        colSet.add(i);
+        diagonaSet1.add(row+i);
+        diagonaSet2.add(row-i);
+        arr[row][i] = 'Q';
+        dfs(row + 1);
+        arr[row][i] = '.';
+        colSet.delete(i);
+        diagonaSet1.delete(row+i);
+        diagonaSet2.delete(row-i);
+      }
+    }
+  }
+  dfs(0);
+  return res;
+};
