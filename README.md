@@ -3,7 +3,7 @@
 
 --------
 
-| #   | 题名      | Topic Name(leetCode) |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name(leetCode) |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|--------|:-------:|   
 | 1   |  [两数之和](./LeetCode/1_javascript.js)                                             |[Two Sum](https://leetcode-cn.com/problems/two-sum/)                                                        |javascript,|                    | eazy  |                 
 | 5   |  [最长回文子串](./LeetCode/5_javascript.js)                                         |[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)       |javascript,|       动态规划，Manacher算法,中心扩散     | medium  |                 
@@ -85,6 +85,7 @@
 | 455 |  [分发饼干](./LeetCode/455_javascript.js)                                         |[Assign Cookies](https://leetcode-cn.com/problems/assign-cookies/)                                            |javascript,|        贪心,双指针       |  eazy |
 | 475*|  [供暖器](./LeetCode/455_javascript.js)                                           |[Heaters](https://leetcode-cn.com/problems/heaters/)                                       |javascript,|  二分           |  eazy |
 | 513 |  [找树左下角的值](./LeetCode/513_javascript.js)                                  |[Find Bottom Left Tree Value](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)             |javascript,|    回溯，递归, BFS        |  medium |
+| 559 |  [N叉树的最大深度](./LeetCode/559_javascript.js)                                  |[Maximum Depth Of N Ary Tree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)             |javascript,|    回溯，递归, BFS,DFS,树       |  eazy |
 | 680 |  [验证回文字符串 Ⅱ](./LeetCode/680_javascript.js)                                 |[Valid Palindrome Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)                                |javascript,| 双指针             |  eazy |
 | 690 |  [图像渲染](./LeetCode/690_javascript.js)                                        |[Employee Importance](https://leetcode-cn.com/problems/employee-importance/)             |javascript,|    回溯，递归, BFS,DFS        |  medium |
 | 704 |  [二分查找](./LeetCode/704_javascript.js)                                          |[Binary Search](https://leetcode-cn.com/problems/binary-search/)                             |javascript,|  二分           |  eazy |
@@ -122,7 +123,7 @@
 
 #### 动态规划`Dynamic Programming`
 
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 5   |  [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)               |[Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)  |javascript,|       动态规划，Manacher算法,中心扩散     | medium  |                 
 | 53  |  [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)                               |[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                      |javascript,|    动态规划 分治法   |  eazy |
@@ -163,7 +164,7 @@
 
 #### 排序
 
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 75 |  [颜色分类](./LeetCode/75_javascript.js)                                                           |[Sort Colors](https://leetcode-cn.com/problems/sort-colors/)                                                               |javascript,|        双指针,排序       |  medium |
 | 179 |  [最大数](./LeetCode/179_javascript.js)                                                           |[Largest Number](https://leetcode-cn.com/problems/largest-number/)                                                             |javascript,|      排序            | medium  |
@@ -181,7 +182,7 @@
 
 #### 链表
 
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 237 |  [删除链表中的节点](./LeetCode/237_javascript.js)                                                  |[Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)                |javascript,|        链表        |  eazy |
 
@@ -190,14 +191,14 @@
 
 #### 递归
 
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 938 |  [二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/)                       |[Range Sum Of Bst](https://leetcode-cn.com/problems/range-sum-of-bst/)                                        |javascript,|   二叉树，递归           |  eazy |
 | 1173|  [第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                 |[N Th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/)                            |javascript,|  递归           |  eazy |
 
 #### 二分
 
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 287|  [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)                                      |[Find The Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/)                                                      |javascript,|  二分           |  medium |
 | 347|  [猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)                                    |[Guess Number Higher Or Lower](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)                                              |javascript,|  二分           |  eazy |
@@ -211,7 +212,7 @@
 | 1337|  [方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                      |[The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                         |javascript,|  二分           |  eazy |
 
 ### 贪心
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 452 |  [分发饼干](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)           |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
 | 455 |  [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)                                        |[Assign Cookies](https://leetcode-cn.com/problems/assign-cookies/)                                                      |javascript,|        贪心,双指针       |  eazy |
@@ -227,19 +228,19 @@
 | 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)        |javascript,|        贪心,排序      |  eazy |
 
 ### 哈希表
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 1282 |  [用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |[Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |javascript,|        哈希表       |  medium |
 
 
 ### 双指针
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 11  |  [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)                 |[Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/)                         |javascript,|    双指针          | medium  |
 | 15  |  [三数之和](https://leetcode-cn.com/problems/3sum/)                                             |[3 Sum](https://leetcode-cn.com/problems/3sum/)                                                                |javascript,|    双指针          | medium  |
 
 ### 回溯算法(DFS,BFS)
-| #   | 题名      | Topic Name |  Solution  |  Keywords  | difficulty |
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
 | 17  |  [电话号码的字母组合](./LeetCode/17_javascript.js)                                |[Letter Combinations Of A Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|javascript,|    回溯，递归          | medium  |
 | 22  |  [括号生成](./LeetCode/22_javascript.js)                                         |[Generate Parenthesesr](https://leetcode-cn.com/problems/generate-parentheses/)           |javascript,|    回溯，递归          | medium  |
@@ -256,6 +257,7 @@
 | 93  |  [复原IP地址](./LeetCode/93_javascript.js)                                       |[Restore Ip Addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)         |javascript,|    回溯，递归          | medium  |
 | 216 |  [组合总和 III](./LeetCode/216_javascript.js)                                    |[Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/)            |javascript,|    回溯，递归          | medium  |
 | 513 |  [找树左下角的值](./LeetCode/513_javascript.js)                                  |[Find Bottom Left Tree Value](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)             |javascript,|    回溯，递归, BFS        |  medium |
+| 559 |  [N叉树的最大深度](./LeetCode/559_javascript.js)                                  |[Maximum Depth Of N Ary Tree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)             |javascript,|    回溯，递归, BFS,DFS        |  eazy |
 | 690 |  [图像渲染](./LeetCode/690_javascript.js)                                        |[Employee Importance](https://leetcode-cn.com/problems/employee-importance/)             |javascript,|    回溯，递归, BFS        |  medium |
 | 733 |  [图像渲染](./LeetCode/733_javascript.js)                                        |[Flood Fill](https://leetcode-cn.com/problems/flood-fill/)                               |javascript,|    回溯，递归        |  eazy |
 | 784 |  [字母大小写全排列](./LeetCode/784_javascript.js)                                 |[Letter Case Permutation](https://leetcode-cn.com/problems/letter-case-permutation/)                               |javascript,|    回溯，递归        |  medium |
@@ -264,3 +266,8 @@
 | 1415 | [长度为 n 的开心字符串中字典序第 k 小的字符串](./LeetCode/1415_javascript.js)         |[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|javascript,|    回溯，递归          |  medium |
 | 剑指 Offer 38 |  [字符串的排列](./LeetCode/剑指Offer38_javascript.js)                      |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)           |javascript,|    回溯，递归          |  medium |
 | 面试题 08.12. 八皇后 |  [面试题 08.12. 八皇后](./LeetCode/51_javascript.js)                 |[Eight Queens Lcci](https://leetcode-cn.com/problems/eight-queens-lcci/)               |javascript,|    回溯，递归          | hard  |
+
+### 树(二叉树)
+| #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
+| --- | --------- | --------  |:--------|:--------|:-------:|  
+| 559 |  [N叉树的最大深度](./LeetCode/559_javascript.js)                                  |[Maximum Depth Of N Ary Tree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)             |javascript,|    回溯，递归, BFS,DFS,树       |  eazy |
