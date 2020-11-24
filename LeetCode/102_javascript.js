@@ -30,6 +30,7 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
+// BFS 
 var levelOrder = function(root) {
   if(!root) return []
   let tempArr = [root];
@@ -50,4 +51,31 @@ var levelOrder = function(root) {
       res.push(resArr)
   }
   return res
+};
+
+// DFS
+var levelOrder = function(root) {
+  if(!root) return []
+  let res = [];
+
+  let dfs = (node, depth) =>{
+      // 当前层数加一 后 res数组push一个新数组
+      if(res.length < depth){
+          res.push([])
+      }
+      // depth -1 而非res.length -1
+      // 后者在深度搜索时 会有问题
+      // 而前者 为当前循环中的值depth值
+      res[depth-1].push(node.val);
+      if(node.left){
+          // 当前层数加一 
+          dfs(node.left,depth+1);
+      }
+      if(node.right){
+          // 当前层数加一 
+          dfs(node.right,depth+1);
+      }
+  }
+  dfs(root,1);
+  return res;
 };

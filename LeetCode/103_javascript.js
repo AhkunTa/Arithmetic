@@ -1,21 +1,20 @@
-// 给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
+// 给定一个二叉树，返回其节点值的锯齿形层次遍历。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。
 
 // 例如：
-// 给定二叉树 [3,9,20,null,null,15,7],
+// 给定二叉树 [3,9,20,null,null,15,7],
 
 //     3
 //    / \
 //   9  20
 //     /  \
 //    15   7
-// 返回其自底向上的层次遍历为：
+// 返回锯齿形层次遍历如下：
 
 // [
-//   [15,7],
-//   [9,20],
-//   [3]
+//   [3],
+//   [20,9],
+//   [15,7]
 // ]
-
 
 /**
  * Definition for a binary tree node.
@@ -28,11 +27,10 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
+// 102 的变形
 // BFS
-// 此题和 102题一样 层序遍历
-// 维护一个包含每一层的数组
-var levelOrderBottom = function(root) {
-  if(!root) return []
+var zigzagLevelOrder = function(root) {
+  if(!root) return [];
   let tempArr = [root];
   let res = [];
   while(tempArr.length){
@@ -48,12 +46,12 @@ var levelOrderBottom = function(root) {
               tempArr.push(temp.right);
           }
       }
+      if(res.length % 2 == 1){
+          resArr.reverse()
+      } 
       res.push(resArr)
   }
-  return res.reverse();
+  return res
 };
 
 // DFS 解法参照 102
-
-
-
