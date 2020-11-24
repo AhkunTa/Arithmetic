@@ -20,6 +20,8 @@
 // 图片链接：https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree
 
 
+// 题目 109 类似
+
 /**
  * // Definition for a Node.
  * function Node(val,children) {
