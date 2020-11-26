@@ -66,6 +66,7 @@
 | 189 |  [旋转数组](./LeetCode/189_javascript.js)                                            |[Rotate Array](https://leetcode-cn.com/problems/rotate-array/)                                                |javascript,|                   | eazy  |
 | 198 |  [打家劫舍](./LeetCode/198_javascript.js)                                            |[House Robber](https://leetcode-cn.com/problems/house-robber/)                                             |javascript,|    动态规划          | eazy  |
 | 202 |  [快乐数](./LeetCode/202_javascript.js)                                              |[Submissions](https://leetcode-cn.com/problems/happy-number/submissions/)                                    |javascript,|                    | eazy  |
+| 206  |  [电话号码的字母组合](./LeetCode/17_javascript.js)                                |[Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)|javascript,|   链表          | eazy  |
 | 213 |  [打家劫舍Ⅱ](./LeetCode/213_javascript.js)                                           |[House Robber Ⅱ](https://leetcode-cn.com/problems/house-robber-ii/)                                          |javascript,|        动态规划    |  medium |
 | 216  |  [组合总和 III](./LeetCode/216_javascript.js)                                       |[Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/)                                |javascript,|    回溯，递归          | medium  |
 | 217|  [存在重复元素](./LeetCode/217_javascript.js)                                         |[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)                                   |javascript,|                   | eazy  |
@@ -233,9 +234,10 @@
 | 1403 |  [非递增顺序的最小子序列](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/) |[Minimum Subsequence in Non-Increasing Order](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)        |javascript,|        贪心       |  eazy |
 | 1561 |  [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/) |[Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)        |javascript,|        贪心,排序      |  eazy |
 
-### 哈希表
+### 哈希表 链表
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
+| 206  |  [电话号码的字母组合](./LeetCode/17_javascript.js)                                |[Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)|javascript,|   链表          | eazy  |
 | 1282 |  [用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |[Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) |javascript,|        哈希表       |  medium |
 
 
