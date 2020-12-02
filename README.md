@@ -131,6 +131,9 @@
 | 面试题17.14 | [最小K个数](./LeetCode/面试题17.14_javascript.js)                         |[Smallest K Lcci](https://leetcode-cn.com/problems/smallest-k-lcci/)                                        |javascript,|        排序      |  medium |
 | 剑指 Offer 38 | [字符串的排列](./LeetCode/剑指Offer38_javascript.js)                   |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)                                          |javascript,|    回溯，递归          |  medium |
 | 面试题 08.12. 八皇后 | [面试题 08.12. 八皇后](./LeetCode/51_javascript.js)               |[Eight Queens Lcci](https://leetcode-cn.com/problems/eight-queens-lcci/)                                    |javascript,|    回溯，递归          | hard  |
+| 剑指 Offer 32 - I|  [从上到下打印二叉树](./LeetCode/剑指Offer32_javascript.js)     |[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
+| 剑指 Offer 32 - II|  [从上到下打印二叉树 II](./LeetCode/剑指Offer32_javascript.js)  |[从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
+| 剑指 Offer 32 - III|  [从上到下打印二叉树 III](./LeetCode/剑指Offer32_javascript.js) |[从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
 
 --------
 
@@ -292,6 +295,9 @@
 | 1415 | [长度为 n 的开心字符串中字典序第 k 小的字符串](./LeetCode/1415_javascript.js)         |[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|javascript,|    回溯，递归          |  medium |
 | 剑指 Offer 38 |  [字符串的排列](./LeetCode/剑指Offer38_javascript.js)                      |[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)           |javascript,|    回溯，递归          |  medium |
 | 面试题 08.12. 八皇后 |  [面试题 08.12. 八皇后](./LeetCode/51_javascript.js)                 |[Eight Queens Lcci](https://leetcode-cn.com/problems/eight-queens-lcci/)               |javascript,|    回溯，递归          | hard  |
+| 剑指 Offer 32 - I|  [从上到下打印二叉树](./LeetCode/剑指Offer32_javascript.js)     |[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
+| 剑指 Offer 32 - II|  [从上到下打印二叉树 II](./LeetCode/剑指Offer32_javascript.js)  |[从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
+| 剑指 Offer 32 - III|  [从上到下打印二叉树 III](./LeetCode/剑指Offer32_javascript.js) |[从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
 
 ### 树(二叉树)
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
@@ -303,3 +309,6 @@
 | 111 |  [二叉树的最小深度](./LeetCode/111_javascript.js)                                 |[Minimum Depth Of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)             |javascript,|    回溯，递归, BFS,DFS,树       |  eazy |
 | 199 |  [二叉树的右视图](./LeetCode/199_javascript.js)                                  |[Binary Tree Right Side View](https://leetcode-cn.com/problems/binary-tree-right-side-view/)               |javascript,|    回溯，递归, BFS,DFS,树    |  medium |
 | 559 |  [N叉树的最大深度](./LeetCode/559_javascript.js)                                  |[Maximum Depth Of N Ary Tree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)             |javascript,|    回溯，递归, BFS,DFS,树       |  eazy |
+| 剑指 Offer 32 - I|  [从上到下打印二叉树](./LeetCode/剑指Offer32_javascript.js)     |[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
+| 剑指 Offer 32 - II|  [从上到下打印二叉树 II](./LeetCode/剑指Offer32_javascript.js)  |[从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
+| 剑指 Offer 32 - III|  [从上到下打印二叉树 III](./LeetCode/剑指Offer32_javascript.js) |[从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)             |javascript,|    回溯，递归, BFS,DFS,树       |  medium |
