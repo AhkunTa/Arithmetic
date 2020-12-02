@@ -26,6 +26,21 @@
  * @param {number[][]} prerequisites
  * @return {boolean}
  */
+
+// [[4,0],[4,1],[5,3],[5,2],[6,4],[6,5]]
+
+// tempArr = [0,0,0,0,2,2,2]
+
+// {
+//     0 : [4],
+//     1 : [4],
+//     2 : [5],
+//     3 : [5],
+//     4 : [6],
+//     5 : [6]
+// }
+
+
 var canFinish = function(numCourses, prerequisites) {
 
   let map = {};
@@ -66,4 +81,54 @@ var canFinish = function(numCourses, prerequisites) {
       }
   }
   return count == numCourses
+};
+
+
+
+// DFS
+
+/**
+ * @param {number} numCourses
+ * @param {number[][]} prerequisites
+ * @return {boolean}
+ */
+var canFinish = function(numCourses, prerequisites) {
+    let visited = new Array(numCourses).fill(0);
+    let map = {}
+    for(let i=0; i<prerequisites.length; i++){
+        if(map[prerequisites[i][1]]){
+            map[prerequisites[i][1]].push(prerequisites[i][0])
+        }else {
+            map[prerequisites[i][1]] = [prerequisites[i][0]]
+        }
+    } 
+    let dfs = (node) =>{
+        // 1 表示此次循环中 经过节点 即存在环
+        if(visited[node] == 1){
+            return true
+        }
+        // -1 表示已结束
+        if(visited[node] == -1){
+            return false;
+        }
+        visited[node] = 1
+        if(map[node]){
+            for(let i=0; i<map[node].length; i++){
+                if(dfs(map[node][i])){
+                    // 当下层返回true 是即有环 退出递归
+                    return true
+                }
+            }
+        }
+        visited[node] = -1
+        return false;
+    }
+
+    for(let j=0; j<numCourses; j++){
+        if(dfs(j)){
+            // 递归结果有环是 返回false
+            return false;
+        }
+    }
+    return true;
 };
