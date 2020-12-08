@@ -29,6 +29,7 @@
 | 47**|  [全排列 II](./LeetCode/47_javascript.js)                                            |[Submissions](https://leetcode-cn.com/problems/permutations-ii/submissions/)                                   |javascript,|    回溯，递归         |  medium |
 | 51  |  [N 皇后](./LeetCode/51_javascript.js)                                              |[N-Queens](https://leetcode-cn.com/problems/n-queens/)                                       |javascript,|    回溯，递归          | hard  |
 | 53  |  [最大子序和](./LeetCode/53_javascript.js)                                            |[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                      |javascript,|    动态规划 分治法   |  eazy |
+| 56  |  [合并区间](./LeetCode/56_javascript.js)                                                           |[Merge Intervals](https://leetcode-cn.com/problems/merge-intervals/)                            |javascript,|        排序       |  medium |
 | 58  |  [最后一个单词的长度](./LeetCode/58_javascript.js)                                    |[Length Of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)                                |javascript,|                    | eazy  |
 | 60  |  [排列序列](./LeetCode/60_javascript.js)                                             |[Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/)                                 |javascript,|    回溯，递归          | hard  |
 | 62  |  [不同路径](./LeetCode/62_javascript.js)                                             |[Unique Paths](https://leetcode-cn.com/problems/unique-paths/)                                                 |javascript,|    动态规划        |  medium |
@@ -184,6 +185,7 @@
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
+| 56 |  [合并区间](./LeetCode/56_javascript.js)                                                           |[Merge Intervals](https://leetcode-cn.com/problems/merge-intervals/)                                                               |javascript,|        排序       |  medium |
 | 75 |  [颜色分类](./LeetCode/75_javascript.js)                                                           |[Sort Colors](https://leetcode-cn.com/problems/sort-colors/)                                                               |javascript,|        双指针,排序       |  medium |
 | 179 |  [最大数](./LeetCode/179_javascript.js)                                                           |[Largest Number](https://leetcode-cn.com/problems/largest-number/)                                                             |javascript,|      排序            | medium  |
 | 207 |  [课程表](./LeetCode/207_javascript.js)                                                           |[Course Schedule](https://leetcode-cn.com/problems/course-schedule/)                                                             |javascript,|      拓扑排序,BFS          | medium  |
