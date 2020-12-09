@@ -79,6 +79,7 @@
 | 216  |  [组合总和 III](./LeetCode/216_javascript.js)                                       |[Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/)                                |javascript,|    回溯，递归          | medium  |
 | 217|  [存在重复元素](./LeetCode/217_javascript.js)                                         |[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)                                   |javascript,|                   | eazy  |
 | 219|  [存在重复元素Ⅱ](./LeetCode/219_javascript.js)                                       |[Contains Duplicate Ⅱ](https://leetcode-cn.com/problems/contains-duplicate/)                                   |javascript,|                   | eazy  |
+| 220 |  [存在重复元素 III](./LeetCode/220_javascript.js)                                                 [Contains Duplicate III](https://leetcode-cn.com/problems/contains-duplicate-iii/)                 |javascript,|      桶排序         | medium  |
 | 221 |  [最大正方形](./LeetCode/221_javascript.js)                                           |[Maximal Square](https://leetcode-cn.com/problems/maximal-square/)                                           |javascript,|        动态规划    |  medium |
 | 242 |  [有效的字母异位词](./LeetCode/242.js)                                                |[Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/)                                              |javascript,|        哈希表*     |  eazy |
 | 264 |  [丑数 II](./LeetCode/264_javascript.js)                                             |[Ugly Number Ⅱ](https://leetcode-cn.com/problems/ugly-number-ii/)                                           |javascript,|        动态规划     |  medium |
@@ -181,7 +182,7 @@
 ----------
 
 
-#### 排序（拓扑排序）
+#### 排序
 
 | #   | 题名      | Topic Name |  Solution  |  Keywords  | Difficulty |
 | --- | --------- | --------  |:--------|:--------|:-------:|   
@@ -189,6 +190,7 @@
 | 75 |  [颜色分类](./LeetCode/75_javascript.js)                                                           |[Sort Colors](https://leetcode-cn.com/problems/sort-colors/)                                                               |javascript,|        双指针,排序       |  medium |
 | 179 |  [最大数](./LeetCode/179_javascript.js)                                                           |[Largest Number](https://leetcode-cn.com/problems/largest-number/)                                                             |javascript,|      排序            | medium  |
 | 207 |  [课程表](./LeetCode/207_javascript.js)                                                           |[Course Schedule](https://leetcode-cn.com/problems/course-schedule/)                                                             |javascript,|      拓扑排序,BFS          | medium  |
+| 220 |  [存在重复元素 III](./LeetCode/220_javascript.js)                                                 [Contains Duplicate III](https://leetcode-cn.com/problems/contains-duplicate-iii/)                                             |javascript,|      桶排序         | medium  |
 | 452 |  [分发饼干](./LeetCode/452_javascript.js)                                                         |[Minimum Number Of Arrows To Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) |javascript,|        贪心,排序       |  medium |
 | 922 |  [按奇偶排序数组 II](./LeetCode/922_javascript.js)                                                 |[Sort Array By Parity Ⅱ](https://leetcode-cn.com/problems/sort-array-by-parity-ii/submissions/)                            |javascript,|         双指针           |  eazy |
 | 937 |  [最接近原点的 K 个点](./LeetCode/937_javascript.js)                                               |[K Closest Points To Origin](https://leetcode-cn.com/problems/k-closest-points-to-origin/)                            |javascript,|        排序，分治*       |  medium |
