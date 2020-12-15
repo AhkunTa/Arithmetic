@@ -18,6 +18,7 @@
 | 15                   | [三数之和](./LeetCode/15_javascript.js)                                       | [3 Sum](https://leetcode-cn.com/problems/3sum/)                                                                                                                        | javascript, | 双指针                           |   medium   |
 | 16                   | [最接近的三数之和](./LeetCode/16_javascript.js)                               | [3sum Closest](https://leetcode-cn.com/problems/3sum-closest/)                                                                                                         | javascript, | 双指针                           |   medium   |
 | 17                   | [电话号码的字母组合](./LeetCode/17_javascript.js)                             | [Letter Combinations Of A Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)                                                       | javascript, | 回溯，递归                       |   medium   |
+| 18                   | [四数之和](./LeetCode/18_javascript.js)                                       | [4sum](https://leetcode-cn.com/problems/4sum/)                                                                                                                         | javascript, | 双指针                           |   medium   |
 | 19                   | [删除链表的倒数第 N 个节点](./LeetCode/19_javascript.js)                      | [Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)                                                                 | javascript, | 双指针                           |   media    |
 | 20                   | [有效的括号](./LeetCode/20_javascript.js)                                     | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)                                                                                               | javascript, |                                  |    eazy    |
 | 22                   | [括号生成](./LeetCode/22_javascript.js)                                       | [Generate Parenthesesr](https://leetcode-cn.com/problems/generate-parentheses/)                                                                                        | javascript, | 回溯，递归                       |   medium   |
@@ -259,6 +260,7 @@
 | 11  | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) | javascript, | 双指针   |   medium   |
 | 15  | [三数之和](./LeetCode/15_javascript.js)                                       | [3 Sum](https://leetcode-cn.com/problems/3sum/)                                          | javascript, | 双指针   |   medium   |
 | 16  | [最接近的三数之和](./LeetCode/16_javascript.js)                               | [3sum Closest](https://leetcode-cn.com/problems/3sum-closest/)                           | javascript, | 双指针   |   medium   |
+| 18  | [四数之和](./LeetCode/18_javascript.js)                                       | [4sum](https://leetcode-cn.com/problems/4sum/)                                           | javascript, | 双指针   |   medium   |
 
 ### 回溯算法(DFS,BFS)
 
