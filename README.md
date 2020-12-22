@@ -112,6 +112,7 @@
 | 457\*                | [环形数组循环](./LeetCode/424_javascript.js)                                  | [Circular Array Loop](https://leetcode-cn.com/problems/circular-array-loop/)                                                                                           | javascript, | 双指针,链表                      |   medium   |
 | 475\*                | [供暖器](./LeetCode/455_javascript.js)                                        | [Heaters](https://leetcode-cn.com/problems/heaters/)                                                                                                                   | javascript, | 二分                             |    eazy    |
 | 513                  | [找树左下角的值](./LeetCode/513_javascript.js)                                | [Find Bottom Left Tree Value](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)                                                                           | javascript, | 回溯，递归, BFS                  |   medium   |
+| 532\*                | [数组中的 k-diff 数对](./LeetCode/532_javascript.js)                          | [K Diff Pairs In An Array](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/)                                                                                 | javascript, | 数组                             |   medium   |
 | 559                  | [N 叉树的最大深度](./LeetCode/559_javascript.js)                              | [Maximum Depth Of N Ary Tree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)                                                                           | javascript, | 回溯，递归, BFS,DFS,树           |    eazy    |
 | 680                  | [验证回文字符串 Ⅱ](./LeetCode/680_javascript.js)                              | [Valid Palindrome Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)                                                                                            | javascript, | 双指针                           |    eazy    |
 | 690                  | [图像渲染](./LeetCode/690_javascript.js)                                      | [Employee Importance](https://leetcode-cn.com/problems/employee-importance/)                                                                                           | javascript, | 回溯，递归, BFS,DFS              |   medium   |
@@ -253,15 +254,21 @@
 | 1403 | [非递增顺序的最小子序列](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/) | [Minimum Subsequence in Non-Increasing Order](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)         | javascript, | 贪心                             |    eazy    |
 | 1561 | [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)       | [Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)                         | javascript, | 贪心,排序                        |    eazy    |
 
-### 哈希表 链表
+### 哈希表
 
 | #    | 题名                                                                                               | Topic Name                                                                                                                                     | Solution    | Keywords      | Difficulty |
 | ---- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :------------ | :--------: |
 | 3    | [无重复字符的最长子串](./LeetCode/3_javascript.js)                                                 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)             | javascript, | 双指针,哈希表 |    eazy    |
 | 30   | [串联所有单词的子串](./LeetCode/30_javascript.js)                                                  | [Substring With Concatenation Of All Words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)                       | javascript, | 双指针,哈希表 |    hard    |
-| 206  | [电话号码的字母组合](./LeetCode/17_javascript.js)                                                  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                                                                   | javascript, | 链表          |    eazy    |
-| 237  | [删除链表中的节点](./LeetCode/237_javascript.js)                                                   | [Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)                                                 | javascript, | 链表          |    eazy    |
 | 1282 | [用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) | [Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) | javascript, | 哈希表        |   medium   |
+
+### 链表
+
+| #   | 题名                                                     | Topic Name                                                                                             | Solution    | Keywords | Difficulty |
+| --- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | :---------- | :------- | :--------: |
+| 19  | [删除链表的倒数第 N 个节点](./LeetCode/19_javascript.js) | [Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | javascript, | 双指针   |   media    |
+| 206 | [电话号码的字母组合](./LeetCode/17_javascript.js)        | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                           | javascript, | 链表     |    eazy    |
+| 237 | [删除链表中的节点](./LeetCode/237_javascript.js)         | [Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)         | javascript, | 链表     |    eazy    |
 
 ### 双指针
 
