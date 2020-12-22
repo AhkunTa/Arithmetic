@@ -24,14 +24,24 @@
  * @return {number}
  */
 
-// 1 动态规划
-var minCostClimbingStairs = function(cost) {
-    var minValue = 0,
-        prevValue = 0;
-    for (var i = 0; i < cost.length; i++) {
-        var val = cost[i] + Math.min(prevValue, minValue);
-        prevValue = minValue;
-        minValue = val;
-    }
-    return Math.min(prevValue, minValue);
+var minCostClimbingStairs = function (cost) {
+  var minValue = 0,
+    prevValue = 0;
+  for (var i = 0; i < cost.length; i++) {
+    var val = cost[i] + Math.min(prevValue, minValue);
+    prevValue = minValue;
+    minValue = val;
+  }
+  return Math.min(prevValue, minValue);
+};
+
+// 动态规划
+var minCostClimbingStairs = function (cost) {
+  let dp = new Array(cost.length);
+  dp[0] = cost[0];
+  dp[1] = cost[1];
+  for (let i = 2; i < cost.length; i++) {
+    dp[i] = Math.min(dp[i - 1], dp[i - 2]) + cost[i];
+  }
+  return Math.min(dp[cost.length - 1], dp[cost.length - 2]);
 };

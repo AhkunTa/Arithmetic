@@ -264,11 +264,12 @@
 
 ### 链表
 
-| #   | 题名                                                     | Topic Name                                                                                             | Solution    | Keywords | Difficulty |
-| --- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | :---------- | :------- | :--------: |
-| 19  | [删除链表的倒数第 N 个节点](./LeetCode/19_javascript.js) | [Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | javascript, | 双指针   |   media    |
-| 206 | [电话号码的字母组合](./LeetCode/17_javascript.js)        | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                           | javascript, | 链表     |    eazy    |
-| 237 | [删除链表中的节点](./LeetCode/237_javascript.js)         | [Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)         | javascript, | 链表     |    eazy    |
+| #   | 题名                                                     | Topic Name                                                                                             | Solution    | Keywords    | Difficulty |
+| --- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | :---------- | :---------- | :--------: |
+| 19  | [删除链表的倒数第 N 个节点](./LeetCode/19_javascript.js) | [Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | javascript, | 链表,双指针 |   media    |
+| 21  | [合并两个有序链表](./LeetCode/21_javascript.js)          | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                     | javascript, | 链表,递归   |    eazy    |
+| 206 | [电话号码的字母组合](./LeetCode/17_javascript.js)        | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                           | javascript, | 链表        |    eazy    |
+| 237 | [删除链表中的节点](./LeetCode/237_javascript.js)         | [Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)         | javascript, | 链表        |    eazy    |
 
 ### 双指针
 

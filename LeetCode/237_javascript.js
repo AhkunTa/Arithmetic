@@ -12,8 +12,7 @@
 // 输入: head = [4,5,1,9], node = 1
 // 输出: [4,5,9]
 // 解释: 给定你链表中值为 1 的第三个节点，那么在调用了你的函数之后，该链表应变为 4 -> 5 -> 9.
-//  
-
+//
 
 /**
  * Definition for singly-linked list.
@@ -27,14 +26,14 @@
  * @return {void} Do not return anything, modify node in-place instead.
  */
 
-
+// 删除传入的node节点
+// 即将传入的节点指向当前的next节点
 // https://leetcode-cn.com/problems/delete-node-in-a-linked-list/solution/tu-jie-shan-chu-lian-biao-zhong-de-jie-dian-python/
-var deleteNode = function(node) {
+var deleteNode = function (node) {
   node.val = node.next.val;
   node.next = node.next.next;
 };
 
-
-var deleteNode = function(node) {
-  Object.assign(node,node.next)
+var deleteNode = function (node) {
+  Object.assign(node, node.next);
 };
