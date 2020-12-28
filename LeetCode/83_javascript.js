@@ -9,8 +9,6 @@
 // 输入: 1->1->2->3->3
 // 输出: 1->2->3
 
-
-
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -23,16 +21,30 @@
  * @return {ListNode}
  */
 
- // 链表简单知识，题目中写明是排序链表
-var deleteDuplicates = function(head) {
-   if(head == null) return head;
-    let current = head;
-    while(current.next != null){
-        if(current.val == current.next.val){
-            current.next = current.next.next;
-        }else{
-            current = current.next;
-        }
+// 链表简单知识，题目中写明是排序链表
+var deleteDuplicates = function (head) {
+  if (head == null) return head;
+  let current = head;
+  while (current.next != null) {
+    if (current.val == current.next.val) {
+      current.next = current.next.next;
+    } else {
+      current = current.next;
     }
-    return head;
+  }
+  return head;
+};
+
+var deleteDuplicates = function (head) {
+  let list = new ListNode(null);
+  list.next = head;
+  while (list) {
+    if (list.next && list.val == list.next.val) {
+      // 主要在于此处判断
+      list.next = list.next.next;
+    } else {
+      list = list.next;
+    }
+  }
+  return head;
 };
