@@ -268,6 +268,7 @@
 | --- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | :---------- | :---------- | :--------: |
 | 19  | [删除链表的倒数第 N 个节点](./LeetCode/19_javascript.js) | [Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | javascript, | 链表,双指针 |   media    |
 | 21  | [合并两个有序链表](./LeetCode/21_javascript.js)          | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                     | javascript, | 链表,递归   |    eazy    |
+| 61  | [旋转链表](./LeetCode/61_javascript.js)                  | [Rotate List](https://leetcode-cn.com/problems/rotate-list/)                                           | javascript, | 链表        |   media    |
 | 160 | [相交链表](./LeetCode/160_javascript.js)                 | [Intersection Of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | javascript, | 链表        |    eazy    |
 | 203 | [反转链表](./LeetCode/203_javascript.js)                 | [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/)           | javascript, | 链表        |    eazy    |
 | 206 | [反转链表](./LeetCode/206_javascript.js)                 | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                           | javascript, | 链表        |    eazy    |
