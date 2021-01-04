@@ -26,6 +26,7 @@
 | 27                   | [移除元素](./LeetCode/27_javascript.js)                                       | [Remove Element](https://leetcode-cn.com/problems/remove-element/)                                                                                                     | javascript, |                                 |    eazy    |
 | 28\*\*               | [实现 strStr()](./LeetCode/28_javascript.js)                                  | [Implement Strstr](https://leetcode-cn.com/problems/implement-strstr/)                                                                                                 | javascript, | kmp\*\*                         |    eazy    |
 | 30\*                 | [串联所有单词的子串](./LeetCode/30_javascript.js)                             | [Substring With Concatenation Of All Words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)                                               | javascript, | 双指针,哈希表                   |    hard    |
+| 34                   | [在排序数组中查找元素的第一个和最后一个位置](./LeetCode/34_javascript.js)     | [Find First And Last Position Of Element In Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)                   | javascript, | 双指针,二分法                   |   medium   |
 | 35                   | [搜索插入位置](./LeetCode/35_javascript.js)                                   | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)                                                                                     | javascript, |                                 |    eazy    |
 | 38                   | [报数](./LeetCode/38_javascript.js)                                           | [Count And Say](https://leetcode-cn.com/problems/count-and-say/)                                                                                                       | javascript, |                                 |    eazy    |
 | 39                   | [组合总和](./LeetCode/39_javascript.js)                                       | [Combination Sum](https://leetcode-cn.com/problems/combination-sum/)                                                                                                   | javascript, | 回溯,递归                       |            |
@@ -223,22 +224,27 @@
 | 938  | [二叉搜索树的范围和](./LeetCode/938_javascript.js) | [Range Sum Of Bst](https://leetcode-cn.com/problems/range-sum-of-bst/)             | javascript, | 二叉树,递归 |    eazy    |
 | 1173 | [第 N 个泰波那契数](./LeetCode/1173_javascript.js) | [N Th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/) | javascript, | 递归        |    eazy    |
 
+---
+
 #### 二分
 
-| #     | 题名                                                       | Topic Name                                                                                                                                   | Solution    | Keywords      | Difficulty |
-| ----- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :------------ | :--------: |
-| 167   | [两数之和 II - 输入有序数组](./LeetCode/167_javascript.js) | [Two Sum II Input Array Is Sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)                                       | javascript, | 双指针,二分法 |    eazy    |
-| 287   | [寻找重复数](./LeetCode/287_javascript.js)                 | [Find The Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/)                                                     | javascript, | 二分          |   medium   |
-| 300   | [最长递增子序列](./LeetCode/300_javascript.js)             | [ Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)                                          | javascript, | 动态规划      |   medium   |
-| 347   | [猜数字大小](./LeetCode/347_javascript.js)                 | [Guess Number Higher Or Lower](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)                                               | javascript, | 二分          |    eazy    |
-| 378\* | [有序矩阵中第 K 小的元素](./LeetCode/378_javascript.js)    | [Kth Smallest Element In A Sorted Matrix](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)                         | javascript, | 二分          |   medium   |
-| 475   | [供暖器](./LeetCode/475_javascript.js)                     | [Heaters](https://leetcode-cn.com/problems/heaters/)                                                                                         | javascript, | 二分          |    eazy    |
-| 704   | [二分查找](./LeetCode/704_javascript.js)                   | [Binary Search](https://leetcode-cn.com/problems/binary-search/)                                                                             | javascript, | 二分          |    eazy    |
-| 744   | [寻找比目标字母大的最小字母](./LeetCode/744_javascript.js) | [Find Smallest Letter Greater Than Target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)                       | javascript, | 二分          |    eazy    |
-| 852   | [山脉数组的峰顶索引](./LeetCode/852_javascript.js)         | [Peak Index In A Mountain Array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                           | javascript, | 二分          |    eazy    |
-| 1237  | [找出给定方程的正整数解](./LeetCode/1237_javascript.js)    | [Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/) | javascript, | 二分 ,双指针  |    eazy    |
-| 1351  | [统计有序矩阵中的负数](./LeetCode/1351_javascript.js)      | [Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)                     | javascript, | 二分          |    eazy    |
-| 1337  | [方阵中战斗力最弱的 K 行](./LeetCode/1337_javascript.js)   | [The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                           | javascript, | 二分          |    eazy    |
+| #     | 题名                                                                      | Topic Name                                                                                                                                           | Solution    | Keywords      | Difficulty |
+| ----- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :------------ | :--------: |
+| 34    | [在排序数组中查找元素的第一个和最后一个位置](./LeetCode/34_javascript.js) | [Find First And Last Position Of Element In Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | javascript, | 双指针,二分法 |   medium   |
+| 167   | [两数之和 II - 输入有序数组](./LeetCode/167_javascript.js)                | [Two Sum II Input Array Is Sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)                                               | javascript, | 双指针,二分法 |    eazy    |
+| 287   | [寻找重复数](./LeetCode/287_javascript.js)                                | [Find The Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/)                                                             | javascript, | 二分          |   medium   |
+| 300   | [最长递增子序列](./LeetCode/300_javascript.js)                            | [ Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)                                                  | javascript, | 动态规划      |   medium   |
+| 347   | [猜数字大小](./LeetCode/347_javascript.js)                                | [Guess Number Higher Or Lower](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)                                                       | javascript, | 二分          |    eazy    |
+| 378\* | [有序矩阵中第 K 小的元素](./LeetCode/378_javascript.js)                   | [Kth Smallest Element In A Sorted Matrix](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                 | javascript, | 二分          |   medium   |
+| 475   | [供暖器](./LeetCode/475_javascript.js)                                    | [Heaters](https://leetcode-cn.com/problems/heaters/)                                                                                                 | javascript, | 二分          |    eazy    |
+| 704   | [二分查找](./LeetCode/704_javascript.js)                                  | [Binary Search](https://leetcode-cn.com/problems/binary-search/)                                                                                     | javascript, | 二分          |    eazy    |
+| 744   | [寻找比目标字母大的最小字母](./LeetCode/744_javascript.js)                | [Find Smallest Letter Greater Than Target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)                               | javascript, | 二分          |    eazy    |
+| 852   | [山脉数组的峰顶索引](./LeetCode/852_javascript.js)                        | [Peak Index In A Mountain Array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)                                                   | javascript, | 二分          |    eazy    |
+| 1237  | [找出给定方程的正整数解](./LeetCode/1237_javascript.js)                   | [Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)         | javascript, | 二分 ,双指针  |    eazy    |
+| 1351  | [统计有序矩阵中的负数](./LeetCode/1351_javascript.js)                     | [Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)                             | javascript, | 二分          |    eazy    |
+| 1337  | [方阵中战斗力最弱的 K 行](./LeetCode/1337_javascript.js)                  | [The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                                   | javascript, | 二分          |    eazy    |
+
+---
 
 ### 贪心
 
@@ -259,6 +265,8 @@
 | 1403 | [非递增顺序的最小子序列](./LeetCode/1403_javascript.js)   | [Minimum Subsequence in Non-Increasing Order](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)         | javascript, | 贪心                          |    eazy    |
 | 1561 | [你可以获得的最大硬币数目](./LeetCode/1561_javascript.js) | [Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)                         | javascript, | 贪心,排序                     |    eazy    |
 
+---
+
 ### 哈希表
 
 | #    | 题名                                               | Topic Name                                                                                                                                     | Solution    | Keywords      | Difficulty |
@@ -266,6 +274,8 @@
 | 3    | [无重复字符的最长子串](./LeetCode/3_javascript.js) | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)             | javascript, | 双指针,哈希表 |    eazy    |
 | 30   | [串联所有单词的子串](./LeetCode/30_javascript.js)  | [Substring With Concatenation Of All Words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)                       | javascript, | 双指针,哈希表 |    hard    |
 | 1282 | [用户分组](./LeetCode/1282_javascript.js)          | [Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/) | javascript, | 哈希表        |   medium   |
+
+---
 
 ### 链表
 
@@ -278,6 +288,8 @@
 | 203 | [反转链表](./LeetCode/203_javascript.js)                 | [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/)           | javascript, | 链表        |    eazy    |
 | 206 | [反转链表](./LeetCode/206_javascript.js)                 | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                           | javascript, | 链表        |    eazy    |
 | 237 | [删除链表中的节点](./LeetCode/237_javascript.js)         | [Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)         | javascript, | 链表        |    eazy    |
+
+---
 
 ### 双指针
 
@@ -294,6 +306,8 @@
 | 424 | [替换后的最长重复字符](./LeetCode/424_javascript.js)             | [Longest Repeating Character Replacement](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)         | javascript, | 双指针,滑动窗口 |   medium   |
 | 457 | [环形数组循环](./LeetCode/424_javascript.js)                     | [Circular Array Loop](https://leetcode-cn.com/problems/circular-array-loop/)                                                 | javascript, | 双指针,链表     |   medium   |
 | 524 | [通过删除字母匹配到字典里最长单词](./LeetCode/524_javascript.js) | [Longest Word In Dictionary Through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/) | javascript, | 双指针          |   medium   |
+
+---
 
 ### 回溯算法(DFS,BFS)
 
@@ -340,6 +354,8 @@
 | 剑指 Offer 32 - I    | [从上到下打印二叉树](./LeetCode/剑指Offer32_javascript.js)                    | [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)                                                                      | javascript, | 回溯,递归, BFS,DFS,树         |   medium   |
 | 剑指 Offer 32 - II   | [从上到下打印二叉树 II](./LeetCode/剑指Offer32_javascript.js)                 | [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)                                                                | javascript, | 回溯,递归, BFS,DFS,树         |   medium   |
 | 剑指 Offer 32 - III  | [从上到下打印二叉树 III](./LeetCode/剑指Offer32_javascript.js)                | [从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)                                                              | javascript, | 回溯,递归, BFS,DFS,树         |   medium   |
+
+---
 
 ### 树(二叉树)
 

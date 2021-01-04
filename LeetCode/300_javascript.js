@@ -33,6 +33,8 @@
  * @param {number[]} nums
  * @return {number}
  */
+
+// 1.
 // 时间 O(n2)
 // 空间 O(n)
 // 动态规划
@@ -52,6 +54,7 @@ var lengthOfLIS = function (nums) {
   return Math.max(...dp);
 };
 
+// 2.
 // 时间O(nlogn)
 // 二分查找
 
