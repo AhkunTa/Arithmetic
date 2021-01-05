@@ -13,9 +13,7 @@
 // 解释:
 // 对于该样例，我们可以在x = 6（射爆[2,8],[1,6]两个气球）和 x = 11（射爆另外两个气球）。
 
-
 // 输入一个数值 x在 输入的数组内部 可以有 最大的值
-
 
 /**
  * @param {number[][]} points
@@ -31,23 +29,27 @@
  * @return {number}
  */
 
-var findMinArrowShots = function(points) {
-    if(points.length == 0) return 0
-    // 排序 用点的终点排序
-    points.sort((a,b)=> a[1]-b[1]);
-	
-    let end = points[0][1];
-    let count = 1;
-    for(let i=0; i<points.length; i++){
-	//若当前点的起点小于射击点，则代表当前一定包含射击点，可一箭射穿。
-	//若大于，则必须要重新射一直箭，并且把该点的终点作为区间判断依据
+var findMinArrowShots = function (points) {
+  if (points.length == 0) return 0;
+  // 排序 用点的终点排序
+  points.sort((a, b) => a[1] - b[1]);
 
-        if(points[i][0] >end){
-            count++;
-            end = points[i][1]
-        }
+  let end = points[0][1];
+  let count = 1;
+  for (let i = 0; i < points.length; i++) {
+    //若当前点的起点小于射击点，则代表当前一定包含射击点，可一箭射穿。
+    //若大于，则必须要重新射一直箭，并且把该点的终点作为区间判断依据
+
+    if (points[i][0] > end) {
+      count++;
+      end = points[i][1];
+    } else {
+      // 因为 根据终点大小排序 后面终点一定大于前面终点
+      // 此处可省略
+      // end = Math.min(end,points[i][1])
     }
-    return count
+  }
+  return count;
 };
 
 // 图形题解
