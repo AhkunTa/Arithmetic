@@ -20,19 +20,33 @@
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 
-// 1 
-	var merge = function(nums1, m, nums2, n) {
-	    let i = m-1, j = n-1;
-	    let len = m + n - 1;
-	    while(i>=0 || j>=0){
-	    //  j < 0 考虑了当 nums2为空时 数组为
-	        if( j < 0 || nums1[i] > nums2[j] ){
-	                nums1[len] = nums1[i];
-	                i--;
-	            }else{
-	                nums1[len] = nums2[j];
-	                j--;
-	            }
-	        len --;
-	    }
-	};
+// 1
+var merge = function (nums1, m, nums2, n) {
+  let i = m - 1,
+    j = n - 1;
+  let len = m + n - 1;
+  while (i >= 0 || j >= 0) {
+    //  j < 0 考虑了当 nums2为空时 数组为
+    if (j < 0 || nums1[i] > nums2[j]) {
+      nums1[len] = nums1[i];
+      i--;
+    } else {
+      nums1[len] = nums2[j];
+      j--;
+    }
+    len--;
+  }
+};
+
+// 2
+var merge = function (nums1, m, nums2, n) {
+  let position = m-- + n-- - 1;
+
+  while (m >= 0 && n >= 0) {
+    nums1[position--] = nums1[m] > nums2[n] ? nums1[m--] : nums2[n--];
+  }
+
+  while (n >= 0) {
+    nums1[position--] = nums2[n--];
+  }
+};
