@@ -145,3 +145,39 @@ var isValidSudoku = function (board) {
   }
   return true;
 };
+
+var isValidSudoku = function (board) {
+  // 新建hash表
+  let rowHash = Array.from(new Array(board.length), map => new Map());
+  let colHash = Array.from(new Array(board.length), map => new Map());
+  let boxHash = Array.from(new Array(board.length), map => new Map());
+
+  for (let i = 0; i < 9; i++) {
+    for (let j = 0; j < 9; j++) {
+      let value = board[i][j];
+      if (value == ".") continue;
+      // 行
+      if (rowHash[i].get(value)) {
+        return false;
+      } else {
+        rowHash[i].set(value, true);
+      }
+      // 列
+      if (colHash[j].get(value)) {
+        return false;
+      } else {
+        colHash[j].set(value, true);
+      }
+      // 获取九宫格地址
+      let boxIndex = Math.floor(i / 3) * 3 + Math.floor(j / 3);
+
+      if (boxHash[boxIndex].get(value)) {
+        return false;
+      } else {
+        boxHash[boxIndex].set(value, true);
+      }
+    }
+  }
+
+  return true;
+};
