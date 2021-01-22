@@ -62,3 +62,24 @@ var addToArrayForm = function (A, K) {
   }
   return res.reverse();
 };
+
+// 逐位相加
+// https://leetcode-cn.com/problems/add-to-array-form-of-integer/solution/shu-zu-xing-shi-de-zheng-shu-jia-fa-by-l-jljp/
+var addToArrayForm = function (A, K) {
+  let res = [];
+  for (let i = A.length - 1; i >= 0; i--) {
+    let sum = A[i] + (K % 10);
+    K = Math.floor(K / 10);
+    if (sum >= 10) {
+      sum = sum % 10;
+      K++;
+    }
+    res.push(sum);
+  }
+  // K还有剩余
+  while (K > 0) {
+    res.push(K % 10);
+    K = Math.floor(K / 10);
+  }
+  return res.reverse();
+};
