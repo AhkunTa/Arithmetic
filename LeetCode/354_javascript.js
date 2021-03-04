@@ -45,6 +45,7 @@ var maxEnvelopes = function (envelopes) {
     } else {
       // 在数组第一位递增排序的基础上 在增序排序数组第二位
       return a[1] - b[1];
+      // 此处也可以  return b[1] - a[1] 使其降序排序 则后面 不需判断 envelopes[i][0] > envelopes[j][0] 这条语句
     }
   });
 
