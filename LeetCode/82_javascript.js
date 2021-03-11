@@ -44,3 +44,5 @@ var deleteDuplicates = function (head) {
   }
   return temp.next;
 };
+// 递归
+var deleteDuplicates = function (head) {};
