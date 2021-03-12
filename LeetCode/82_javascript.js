@@ -45,4 +45,18 @@ var deleteDuplicates = function (head) {
   return temp.next;
 };
 // 递归
-var deleteDuplicates = function (head) {};
+var deleteDuplicates = function (head) {
+  if (!head || !head.next) {
+    return head;
+  }
+  let next = head.next;
+  if (head.val == next.val) {
+    while (next && head.val == next.val) {
+      next = next.next;
+    }
+    head = deleteDuplicates(next);
+  } else {
+    head.next = deleteDuplicates(next);
+  }
+  return head;
+};
