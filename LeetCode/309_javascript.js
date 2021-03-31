@@ -7,9 +7,8 @@
 // 示例:
 
 // 输入: [1,2,3,0,2]
-// 输出: 3 
+// 输出: 3
 // 解释: 对应的交易状态为: [买入, 卖出, 冷冻期, 买入, 卖出]
-
 
 // 动态规划
 
@@ -42,3 +41,31 @@
 
 // 总结：最后一天的最大收益有两种可能，而且一定是“不持有”状态下的两种可能，把这两种“不持有”比较一下大小，返回即可
 
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfit = function (prices) {
+  let dp = Array.from(new Array(prices.length), (arr) => new Array(3));
+
+  dp[0][0] = 0;
+  // 当天持有 即买入
+  dp[0][1] = -prices[0];
+  // 可以理解为当天买入卖出
+  dp[0][2] = 0;
+  for (let i = 1; i < prices.length; i++) {
+    // 设三种状态 持有 卖出 和冷却期
+    // 当天不持有没卖出 1 冷却期 2 当天卖出
+    dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][2]);
+    // 当天持有 1 前一天也持有今天没卖 2 今天刚买入
+    dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);
+    // 当天不持有卖出 1 前一天持有
+    dp[i][2] = dp[i - 1][1] + prices[i];
+    console.log(dp[i][0], dp[i][1], dp[i][2]);
+  }
+  return Math.max(dp[prices.length - 1][2], dp[prices.length - 1][0]);
+};
