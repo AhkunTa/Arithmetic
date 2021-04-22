@@ -94,6 +94,7 @@
 | 131\*                | [分割回文串](./LeetCode/131_javascript.js)                                    | [Palindrome Partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)                                                                                   | javascript, | 回溯,DFS,动态规划               |   medium   |
 | 134\*                | [加油站](./LeetCode/134_javascript.js)                                        | [Gas Station](https://leetcode-cn.com/problems/gas-station/)                                                                                                           | javascript, | 贪心                            |   medium   |
 | 135                  | [分发糖果](./LeetCode/135_javascript.js)                                      | [Candy](https://leetcode-cn.com/problems/candy/)                                                                                                                       | javascript, | 贪心                            |    hard    |
+| 137\*\*              | [只出现一次的数字 II](./LeetCode/137_javascript.js)                           | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/)                                                                                                 | javascript, | 位运算                          |   medium   |
 | 136                  | [只出现一次的数字](./LeetCode/136_javascript.js)                              | [Single Number](https://leetcode-cn.com/problems/single-number/)                                                                                                       | javascript, |                                 |    eazy    |
 | 139                  | [单词拆分](./LeetCode/139_javascript.js)                                      | [Word Break](https://leetcode-cn.com/problems/word-break/)                                                                                                             | javascript, | 动态规划                        |   medium   |
 | 140                  | [单词拆分 II](./LeetCode/140_javascript.js)                                   | [Word Break II](https://leetcode-cn.com/problems/word-break-ii/)                                                                                                       | javascript, | 动态规划                        |    hard    |
@@ -489,3 +490,11 @@
 | 剑指 Offer 32 - I   | [从上到下打印二叉树](./LeetCode/剑指Offer32_javascript.js)       | [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)                            | javascript, | 回溯,递归, BFS,DFS,树 |   medium   |
 | 剑指 Offer 32 - II  | [从上到下打印二叉树 II](./LeetCode/剑指Offer32_javascript.js)    | [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)                      | javascript, | 回溯,递归, BFS,DFS,树 |   medium   |
 | 剑指 Offer 32 - III | [从上到下打印二叉树 III](./LeetCode/剑指Offer32_javascript.js)   | [从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)                    | javascript, | 回溯,递归, BFS,DFS,树 |   medium   |
+
+### 链表
+
+| #   | 题名                                                | Topic Name                                                             | Solution    | Keywords | Difficulty |
+| --- | --------------------------------------------------- | ---------------------------------------------------------------------- | :---------- | :------- | :--------: |
+| 137 | [只出现一次的数字 II](./LeetCode/137_javascript.js) | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/) | javascript, | 位运算   |   medium   |
+
+---
