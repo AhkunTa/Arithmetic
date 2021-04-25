@@ -17,39 +17,57 @@
 // 输出: 3
 // 解释: 它可以解码为 "BZ" (2 26), "VF" (22 6), 或者 "BBF" (2 2 6)
 
-
 // 1 动态规划
 // 类似上楼梯 不过要考虑边界情况
 // dp[i]为字符串的译码方法总数
 // 分情况讨论
-// 1 若s[i]= 0 那么 s[i-1] = 1 或 2 则dp[i] = dp[i-2] 即 当为10 20 时 只有一种方法编译 
+// 1 若s[i]= 0 那么 s[i-1] = 1 或 2 则dp[i] = dp[i-2] 即 当为10 20 时 只有一种方法编译
 // 否则 返回 0  因为 30 40 50 都没法编译
 // 2 若s[i-1] = 1 则 dp[i] = dp[i-1] + dp[i-2]
 // 当有两位时 s[i-1] 必须为1 或者2 当大于2时 没有符合条件的
 // 3 若s[i-1] = 2 && s[i] <= 6 dp[i] = dp[i-1] + dp[i-2]
 // 同上
 
+/**
+ * @param {string} s
+ * @return {number}
+ */
 
-var numDecodings = function(s) {
-    if(s[0] == 0) return 0;
-    let len = s.length;
-    let dp = new Array(len+1);
-    dp[0] = dp[1] = 1;
-    for(let i = 1; i<len; i++){
-        if(s[i] == 0){
-            if(s[i-1] == 1 || s[i-1] == 2){
-                dp[i+1] = dp[i-1];
-            }else {
-                return 0;
-            }
-        }else if(s[i-1] ==1 || (s[i-1] == 2 && s[i] <=6)){
-            dp[i+1] = dp[i] + dp[i-1];
-        }else {
-            dp[i+1] = dp[i];
+//  1   1   1   0   6  为例
+//  1   2   3   2   2
+var numDecodings = function (s) {
+  if (s[0] == 0) return 0;
+  let len = s.length;
+  let dp = new Array(len + 1);
+  dp[0] = 1;
+  for (let i = 0; i < s.length; i++) {
+    // 1 当s[i] 为0 时 s[i-1] + '0' 只能唯一值 不能拆分 所以dp的值为前两个的值
+    // 以上为例 1110  i = 3  s[i] = 0  s[i-1] = 1  两者  1110 只能组成 11 10 和 1 1 10 所以 dp[i] = dp[i-2]
+    // 为方便 使用 dp[i+1] = dp[i-1]
+    if (s[i] == 0) {
+      if (s[i - 1] == 1 || s[i - 1] == 2) {
+        dp[i + 1] = dp[i - 1];
+      } else {
+        // 判断 是否为 30 40 50 60 ... 此时无匹配项返回0
+        return 0;
+      }
+    } else {
+      // 2 当s[i-1] 为1 或2
+      if (s[i - 1] == 1 || s[i - 1] == 2) {
+        // 需判断 是否大于 26 大于26 匹配不到 如 1127  dp[3] = dp[2] = 3
+        if (s[i - 1] == 2 && s[i] > 6) {
+          dp[i + 1] = dp[i];
+        } else {
+          // 否则 如 1123  23 可以拆分为 23 或 2 3  dp[i+1] = dp[i] + dp[i-1]
+          // 斐波那契数列 1 1 2 3 5 8 13
+          dp[i + 1] = dp[i] + dp[i - 1];
         }
+      } else {
+        // 3 s[i-1] 为 0 或 >3 比配到的值 如 1132 32只能拆分 3 2 所以 dp[i+1] = dp[i]
+        dp[i + 1] = dp[i];
+      }
     }
-    return dp[len];
+  }
+  // console.log(dp)
+  return dp[len];
 };
-
-
-
