@@ -499,10 +499,11 @@
 | 剑指 Offer 32 - II  | [从上到下打印二叉树 II](./LeetCode/剑指Offer32_javascript.js)    | [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)                      | javascript, | 回溯,递归, BFS,DFS,树 |   medium   |
 | 剑指 Offer 32 - III | [从上到下打印二叉树 III](./LeetCode/剑指Offer32_javascript.js)   | [从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)                    | javascript, | 回溯,递归, BFS,DFS,树 |   medium   |
 
-### 链表
+### 位运算
 
-| #   | 题名                                                | Topic Name                                                             | Solution    | Keywords | Difficulty |
-| --- | --------------------------------------------------- | ---------------------------------------------------------------------- | :---------- | :------- | :--------: |
-| 137 | [只出现一次的数字 II](./LeetCode/137_javascript.js) | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/) | javascript, | 位运算   |   medium   |
+| #    | 题名                                                | Topic Name                                                                 | Solution    | Keywords | Difficulty |
+| ---- | --------------------------------------------------- | -------------------------------------------------------------------------- | :---------- | :------- | :--------: |
+| 137  | [只出现一次的数字 II](./LeetCode/137_javascript.js) | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/)     | javascript, | 位运算   |   medium   |
+| 1720 | [解码异或后的数组](./LeetCode/1720_javascript.js)   | [Decode Xored Array](https://leetcode-cn.com/problems/decode-xored-array/) | javascript, | 位运算   |    eazy    |
 
 ---
