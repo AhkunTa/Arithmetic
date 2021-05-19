@@ -220,6 +220,7 @@
 | 1603                 | [设计停车系统](./LeetCode/1603_javascript.js)                                 | [Design Parking System](https://leetcode-cn.com/problems/design-parking-system/)                                                                                       | javascript, | 设计                            |    eazy    |
 | 1689                 | [十-二进制数的最少数目](./LeetCode/1720_javascript.js)                        | [Partitioning Into Minimum Number Of Deci Binary Numbers](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)                   | javascript, | 贪心                            |   medium   |
 | 1720                 | [解码异或后的数组](./LeetCode/1720_javascript.js)                             | [Decode Xored Array](https://leetcode-cn.com/problems/decode-xored-array/)                                                                                             | javascript, | 位运算                          |    eazy    |
+| 1738                 | [找出第 K 大的异或坐标值](./LeetCode/1738_javascript.js)                      | [Find Kth Largest Xor Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)                                                       | javascript, | 位运算,异或                     |   medium   |
 | 面试题 0801          | [三步问题](./LeetCode/面试题08.01_javascript.js)                              | [Three Steps Problem Lcci](https://leetcode-cn.com/problems/three-steps-problem-lcci/)                                                                                 | javascript, | 动态规划                        |    eazy    |
 | 面试题 17.14         | [最小 K 个数](./LeetCode/面试题17.14_javascript.js)                           | [Smallest K Lcci](https://leetcode-cn.com/problems/smallest-k-lcci/)                                                                                                   | javascript, | 排序                            |   medium   |
 | 面试题 17.16. 按摩师 | [面试题 17.16. 按摩师](./LeetCode/面试题17.16_javascript.js)                  | [The Masseuse Lcci](https://leetcode-cn.com/problems/the-masseuse-lcci/)                                                                                               | javascript, | 动态规划                        |    eazy    |
@@ -514,10 +515,11 @@
 
 ### 位运算
 
-| #    | 题名                                                | Topic Name                                                                               | Solution    | Keywords | Difficulty |
-| ---- | --------------------------------------------------- | ---------------------------------------------------------------------------------------- | :---------- | :------- | :--------: |
-| 137  | [只出现一次的数字 II](./LeetCode/137_javascript.js) | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/)                   | javascript, | 位运算   |   medium   |
-| 1486 | [数组异或操作](./LeetCode/1486_javascript.js)       | [Xor Operation In An Array](https://leetcode-cn.com/problems/xor-operation-in-an-array/) | javascript, | 位运算   |    eazy    |
-| 1720 | [解码异或后的数组](./LeetCode/1720_javascript.js)   | [Decode Xored Array](https://leetcode-cn.com/problems/decode-xored-array/)               | javascript, | 位运算   |    eazy    |
+| #    | 题名                                                     | Topic Name                                                                                                       | Solution    | Keywords    | Difficulty |
+| ---- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | :---------- | :---------- | :--------: |
+| 137  | [只出现一次的数字 II](./LeetCode/137_javascript.js)      | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/)                                           | javascript, | 位运算      |   medium   |
+| 1486 | [数组异或操作](./LeetCode/1486_javascript.js)            | [Xor Operation In An Array](https://leetcode-cn.com/problems/xor-operation-in-an-array/)                         | javascript, | 位运算      |    eazy    |
+| 1720 | [解码异或后的数组](./LeetCode/1720_javascript.js)        | [Decode Xored Array](https://leetcode-cn.com/problems/decode-xored-array/)                                       | javascript, | 位运算      |    eazy    |
+| 1738 | [找出第 K 大的异或坐标值](./LeetCode/1738_javascript.js) | [Find Kth Largest Xor Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | javascript, | 位运算,异或 |   medium   |
 
 ---
