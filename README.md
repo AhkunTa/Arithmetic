@@ -521,11 +521,12 @@
 
 ### 位运算
 
-| #    | 题名                                                     | Topic Name                                                                                                       | Solution    | Keywords    | Difficulty |
-| ---- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | :---------- | :---------- | :--------: |
-| 137  | [只出现一次的数字 II](./LeetCode/137_javascript.js)      | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/)                                           | javascript, | 位运算      |   medium   |
-| 1486 | [数组异或操作](./LeetCode/1486_javascript.js)            | [Xor Operation In An Array](https://leetcode-cn.com/problems/xor-operation-in-an-array/)                         | javascript, | 位运算      |    eazy    |
-| 1720 | [解码异或后的数组](./LeetCode/1720_javascript.js)        | [Decode Xored Array](https://leetcode-cn.com/problems/decode-xored-array/)                                       | javascript, | 位运算      |    eazy    |
-| 1738 | [找出第 K 大的异或坐标值](./LeetCode/1738_javascript.js) | [Find Kth Largest Xor Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | javascript, | 位运算,异或 |   medium   |
+| #     | 题名                                                     | Topic Name                                                                                                       | Solution    | Keywords    | Difficulty |
+| ----- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | :---------- | :---------- | :--------: | ---- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------- | ----------- | ------ |
+| 137   | [只出现一次的数字 II](./LeetCode/137_javascript.js)      | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/)                                           | javascript, | 位运算      |   medium   |
+| 461\* | [汉明距离](./LeetCode/461_javascript.js)                 | [Hamming Distance](https://leetcode-cn.com/problems/hamming-distance/)                                           | javascript, | 位运算      |    eazy    |
+| 1486  | [数组异或操作](./LeetCode/1486_javascript.js)            | [Xor Operation In An Array](https://leetcode-cn.com/problems/xor-operation-in-an-array/)                         | javascript, | 位运算      |    eazy    |
+| 1720  | [解码异或后的数组](./LeetCode/1720_javascript.js)        | [Decode Xored Array](https://leetcode-cn.com/problems/decode-xored-array/)                                       | javascript, | 位运算      |    eazy    | 1738 | [找出第 K 大的异或坐标值](./LeetCode/1738_javascript.js) | [Find Kth Largest Xor Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | javascript, | 位运算,异或 | medium |
+| 1738  | [找出第 K 大的异或坐标值](./LeetCode/1738_javascript.js) | [Find Kth Largest Xor Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | javascript, | 位运算,异或 |   medium   |
 
 ---
