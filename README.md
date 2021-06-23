@@ -2,8 +2,8 @@
 
 ---
 
-| #                    | 题名                                                                          | Topic Name(leetCode)                                                                                                                                                   | Solution    | Keywords                        | Difficulty |
-| -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | ------------------------------- | :--------: |
+| #                    | 题名                                                                          | Topic Name                                                                                                                                                             | Solution    | Keywords                        | Difficulty | Similar Topics |
+| -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :------------------------------ | :--------: | :------------: |
 | 1                    | [两数之和](./LeetCode/1_javascript.js)                                        | [Two Sum](https://leetcode-cn.com/problems/two-sum/)                                                                                                                   | javascript, |                                 |    eazy    |
 | 3                    | [无重复字符的最长子串](./LeetCode/3_javascript.js)                            | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)                                     | javascript, | 双指针,哈希表                   |    eazy    |
 | 5                    | [最长回文子串](./LeetCode/5_javascript.js)                                    | [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)                                                           | javascript, | 动态规划,Manacher 算法,中心扩散 |   medium   |
@@ -243,6 +243,7 @@
 | 面试题 17.16. 按摩师 | [面试题 17.16. 按摩师](./LeetCode/面试题17.16_javascript.js)                  | [The Masseuse Lcci](https://leetcode-cn.com/problems/the-masseuse-lcci/)                                                                                               | javascript, | 动态规划                        |    eazy    |
 | 面试题 08.13. 堆箱子 | [面试题 08.13. 堆箱子](./LeetCode/面试题08.13_javascript.js)                  | [Pile Box Lcci](https://leetcode-cn.com/problems/pile-box-lcci/)                                                                                                       | javascript, | 动态规划,回溯                   |    hard    |
 | 面试题 08.12. 八皇后 | [面试题 08.12. 八皇后](./LeetCode/51_javascript.js)                           | [Eight Queens Lcci](https://leetcode-cn.com/problems/eight-queens-lcci/)                                                                                               | javascript, | 回溯,递归                       |    hard    |
+| 剑指 Offer 15        | [剑指 Offer15.二进制中 1 的个数](./LeetCode/剑指Offer15_javascript.js)        | [二进制中 1 的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)                                                                                | javascript, | 位运算                          |    eazy    |      191       |
 | 剑指 Offer 38        | [字符串的排列](./LeetCode/剑指Offer38_javascript.js)                          | [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)                                                                                          | javascript, | 回溯,递归                       |   medium   |
 | 剑指 Offer 32 - I    | [从上到下打印二叉树](./LeetCode/剑指Offer32_javascript.js)                    | [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)                                                                      | javascript, | 回溯,递归, BFS,DFS,树           |   medium   |
 | 剑指 Offer 32 - II   | [从上到下打印二叉树 II](./LeetCode/剑指Offer32_javascript.js)                 | [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)                                                                | javascript, | 回溯,递归, BFS,DFS,树           |   medium   |
@@ -252,8 +253,8 @@
 
 #### 动态规划`Dynamic Programming`
 
-| #                    | 题名                                                         | Topic Name                                                                                                                                     | Solution    | Keywords                        | Difficulty |
-| -------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :------------------------------ | :--------: |
+| #                    | 题名                                                         | Topic Name                                                                                                                                     | Solution    | Keywords                        | Difficulty | Similar Topics |
+| -------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :------------------------------ | :--------: | :------------: |
 | 5                    | [最长回文子串](./LeetCode/5_javascript.js)                   | [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)                                   | javascript, | 动态规划,Manacher 算法,中心扩散 |   medium   |
 | 42                   | [接雨水](./LeetCode/42_javascript.js)                        | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)                                                                   | javascript, | 双指针,动态规划                 |    hard    |
 | 53                   | [最大子序和](./LeetCode/53_javascript.js)                    | [Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                                                         | javascript, | 动态规划 分治法                 |    eazy    |
@@ -311,8 +312,8 @@
 
 #### 排序
 
-| #            | 题名                                                                  | Topic Name                                                                                                                                           | Solution    | Keywords     | Difficulty |
-| ------------ | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :----------- | :--------: |
+| #            | 题名                                                                  | Topic Name                                                                                                                                           | Solution    | Keywords     | Difficulty | Similar Topics |
+| ------------ | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :----------- | :--------: | :------------: |
 | 48           | [旋转图像](./LeetCode/48_javascript.js)                               | [Rotate Image](https://leetcode-cn.com/problems/rotate-image/)                                                                                       | javascript, | 排序,数组    |   medium   |
 | 56           | [合并区间](./LeetCode/56_javascript.js)                               | [Merge Intervals](https://leetcode-cn.com/problems/merge-intervals/)                                                                                 | javascript, | 排序         |   medium   |
 | 75           | [颜色分类](./LeetCode/75_javascript.js)                               | [Sort Colors](https://leetcode-cn.com/problems/sort-colors/)                                                                                         | javascript, | 双指针,排序  |   medium   |
@@ -333,8 +334,8 @@
 
 #### 递归
 
-| #    | 题名                                                           | Topic Name                                                                                                                                               | Solution    | Keywords         | Difficulty |
-| ---- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :--------------- | :--------: |
+| #    | 题名                                                           | Topic Name                                                                                                                                               | Solution    | Keywords         | Difficulty | Similar Topics |
+| ---- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :--------------- | :--------: | :------------: |
 | 82   | [删除排序链表中的重复元素 II](./LeetCode/82_javascript.js)     | [Remove Duplicates From Sorted List II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)                                         | javascript, | 链表,双指针,递归 |   medium   |
 | 94   | [二叉树的中序遍历](./LeetCode/94_javascript.js)                | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                                                         | javascript, | 二叉树,递归,栈   |   medium   |
 | 105  | [从前序与中序遍历序列构造二叉树](./LeetCode/105_javascript.js) | [Construct Binary Tree From Preorder And Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | javascript, | 递归,树          |   medium   |
@@ -346,8 +347,8 @@
 
 #### 二分
 
-| #    | 题名                                                                      | Topic Name                                                                                                                                           | Solution    | Keywords      | Difficulty |
-| ---- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :------------ | :--------: |
+| #    | 题名                                                                      | Topic Name                                                                                                                                           | Solution    | Keywords      | Difficulty | Similar Topics |
+| ---- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :------------ | :--------: | :------------: |
 | 33   | [搜索旋转排序数组](./LeetCode/33_javascript.js)                           | [Search In Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)                                                   | javascript, | 二分法        |   medium   |
 | 34   | [在排序数组中查找元素的第一个和最后一个位置](./LeetCode/34_javascript.js) | [Find First And Last Position Of Element In Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | javascript, | 双指针,二分法 |   medium   |
 | 81   | [搜索旋转排序数组 II](./LeetCode/81_javascript.js)                        | [Search In Rotated Sorted Array II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)                                             | javascript, | 二分法        |   medium   |
@@ -376,8 +377,8 @@
 
 ### 贪心
 
-| #    | 题名                                                      | Topic Name                                                                                                                           | Solution    | Keywords                      | Difficulty |
-| ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | :---------- | :---------------------------- | :--------: |
+| #    | 题名                                                      | Topic Name                                                                                                                           | Solution    | Keywords                      | Difficulty | Similar Topics |
+| ---- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | :---------- | :---------------------------- | :--------: | :------------: |
 | 12   | [整数转罗马数字](./LeetCode/12_javascript.js)             | [Integer To Roman](https://leetcode-cn.com/problems/integer-to-roman/)                                                               | javascript, | 字符串,贪心                   |   medium   |
 | 45   | [跳跃游戏 II](./LeetCode/45_javascript.js)                | [Gump Game II](https://leetcode-cn.com/problems/jump-game-ii/)                                                                       | javascript, | 贪心                          |    hard    |
 | 55   | [跳跃游戏](./LeetCode/55_javascript.js)                   | [Jump Game](https://leetcode-cn.com/problems/jump-game/)                                                                             | javascript, | 贪心                          |   medium   |
@@ -403,8 +404,8 @@
 
 ### 哈希表
 
-| #    | 题名                                               | Topic Name                                                                                                                                     | Solution    | Keywords         | Difficulty |
-| ---- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :--------------- | :--------: |
+| #    | 题名                                               | Topic Name                                                                                                                                     | Solution    | Keywords         | Difficulty | Similar Topics |
+| ---- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :--------------- | :--------: | :------------: |
 | 3    | [无重复字符的最长子串](./LeetCode/3_javascript.js) | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)             | javascript, | 双指针,哈希表    |    eazy    |
 | 36   | [有效的数独](./LeetCode/36_javascript.js)          | [Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/)                                                                                 | javascript, | 哈希表           |   medium   |
 | 37   | [解数独](./LeetCode/37_javascript.js)              | [Sudoku Solver](https://leetcode-cn.com/problems/sudoku-solver/)                                                                               | javascript, | 哈希表, 回溯算法 |    hard    |
@@ -423,8 +424,8 @@
 
 ### 链表
 
-| #   | 题名                                                     | Topic Name                                                                                             | Solution    | Keywords    | Difficulty |
-| --- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | :---------- | :---------- | :--------: |
+| #   | 题名                                                     | Topic Name                                                                                             | Solution    | Keywords    | Difficulty | Similar Topics |
+| --- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | :---------- | :---------- | :--------: | :------------: |
 | 19  | [删除链表的倒数第 N 个节点](./LeetCode/19_javascript.js) | [Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | javascript, | 链表,双指针 |   medium   |
 | 21  | [合并两个有序链表](./LeetCode/21_javascript.js)          | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                     | javascript, | 链表,递归   |    eazy    |
 | 24  | [两两交换链表中的节点](./LeetCode/24_javascript.js)      | [Swap Nodes In Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)                           | javascript, | 链表,递归   |   medium   |
@@ -438,8 +439,8 @@
 
 ### 双指针
 
-| #   | 题名                                                             | Topic Name                                                                                                                   | Solution    | Keywords         | Difficulty |
-| --- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | :---------- | :--------------- | :--------: |
+| #   | 题名                                                             | Topic Name                                                                                                                   | Solution    | Keywords         | Difficulty | Similar Topics |
+| --- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | :---------- | :--------------- | :--------: | :------------: |
 | 11  | [盛最多水的容器](./LeetCode/11_javascript.js)                    | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/)                                     | javascript, | 双指针           |   medium   |
 | 15  | [三数之和](./LeetCode/15_javascript.js)                          | [3 Sum](https://leetcode-cn.com/problems/3sum/)                                                                              | javascript, | 双指针           |   medium   |
 | 16  | [最接近的三数之和](./LeetCode/16_javascript.js)                  | [3sum Closest](https://leetcode-cn.com/problems/3sum-closest/)                                                               | javascript, | 双指针           |   medium   |
@@ -461,8 +462,8 @@
 
 ### 回溯算法(DFS,BFS)
 
-| #                    | 题名                                                                          | Topic Name                                                                                                                                                             | Solution    | Keywords                      | Difficulty |
-| -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :---------------------------- | :--------: |
+| #                    | 题名                                                                          | Topic Name                                                                                                                                                             | Solution    | Keywords                      | Difficulty | Similar Topics |
+| -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :---------------------------- | :--------: | :------------: |
 | 17                   | [电话号码的字母组合](./LeetCode/17_javascript.js)                             | [Letter Combinations Of A Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)                                                       | javascript, | 回溯,递归                     |   medium   |
 | 22                   | [括号生成](./LeetCode/22_javascript.js)                                       | [Generate Parenthesesr](https://leetcode-cn.com/problems/generate-parentheses/)                                                                                        | javascript, | 回溯,递归                     |   medium   |
 | 37                   | [解数独](./LeetCode/37_javascript.js)                                         | [Sudoku Solver](https://leetcode-cn.com/problems/sudoku-solver/)                                                                                                       | javascript, | 哈希表, 回溯算法              |    hard    |
@@ -518,8 +519,8 @@
 
 ### 树(二叉树)
 
-| #                   | 题名                                                             | Topic Name                                                                                                                                                  | Solution    | Keywords              | Difficulty |
-| ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :-------------------- | :--------: |
+| #                   | 题名                                                             | Topic Name                                                                                                                                                  | Solution    | Keywords              | Difficulty | Similar Topics |
+| ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :-------------------- | :--------: | :------------: |
 | 94                  | [二叉树的中序遍历](./LeetCode/94_javascript.js)                  | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                                                            | javascript, | 二叉树,递归,栈        |   medium   |
 | 98                  | [验证二叉搜索树](./LeetCode/98_javascript.js)                    | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)                                                                | javascript, | 回溯,递归,DFS,树      |   medium   |
 | 101                 | [对称二叉树](./LeetCode/102_javascript.js)                       | [Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)                                                                                          | javascript, | 回溯,递归, BFS,DFS,树 |    eazy    |
@@ -545,14 +546,15 @@
 
 ### 位运算
 
-| #     | 题名                                                     | Topic Name                                                                                                       | Solution    | Keywords    | Difficulty |
-| ----- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | :---------- | :---------- | :--------: |
-| 137   | [只出现一次的数字 II](./LeetCode/137_javascript.js)      | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/)                                           | javascript, | 位运算      |   medium   |
-| 150   | [逆波兰表达式求值](./LeetCode/150_javascript.js)         | [Evaluate Reverse Polish Notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)           | javascript, | 位运算      |   medium   |
-| 342   | [4 的幂](./LeetCode/342_javascript.js)                   | [Power Of Four](https://leetcode-cn.com/problems/power-of-four/)                                                 | javascript, | 位运算      |    eazy    |
-| 461\* | [汉明距离](./LeetCode/461_javascript.js)                 | [Hamming Distance](https://leetcode-cn.com/problems/hamming-distance/)                                           | javascript, | 位运算      |    eazy    |
-| 1486  | [数组异或操作](./LeetCode/1486_javascript.js)            | [Xor Operation In An Array](https://leetcode-cn.com/problems/xor-operation-in-an-array/)                         | javascript, | 位运算      |    eazy    |
-| 1720  | [解码异或后的数组](./LeetCode/1720_javascript.js)        | [Decode Xored Array](https://leetcode-cn.com/problems/decode-xored-array/)                                       | javascript, | 位运算      |    eazy    |
-| 1738  | [找出第 K 大的异或坐标值](./LeetCode/1738_javascript.js) | [Find Kth Largest Xor Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | javascript, | 位运算,异或 |   medium   |
+| #             | 题名                                                                   | Topic Name                                                                                                       | Solution    | Keywords    | Difficulty | Similar Topics |
+| ------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | :---------- | :---------- | :--------: | :------------: |
+| 137           | [只出现一次的数字 II](./LeetCode/137_javascript.js)                    | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/)                                           | javascript, | 位运算      |   medium   |                |
+| 150           | [逆波兰表达式求值](./LeetCode/150_javascript.js)                       | [Evaluate Reverse Polish Notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)           | javascript, | 位运算      |   medium   |                |
+| 342           | [4 的幂](./LeetCode/342_javascript.js)                                 | [Power Of Four](https://leetcode-cn.com/problems/power-of-four/)                                                 | javascript, | 位运算      |    eazy    |                |
+| 461\*         | [汉明距离](./LeetCode/461_javascript.js)                               | [Hamming Distance](https://leetcode-cn.com/problems/hamming-distance/)                                           | javascript, | 位运算      |    eazy    |                |
+| 1486          | [数组异或操作](./LeetCode/1486_javascript.js)                          | [Xor Operation In An Array](https://leetcode-cn.com/problems/xor-operation-in-an-array/)                         | javascript, | 位运算      |    eazy    |                |
+| 1720          | [解码异或后的数组](./LeetCode/1720_javascript.js)                      | [Decode Xored Array](https://leetcode-cn.com/problems/decode-xored-array/)                                       | javascript, | 位运算      |    eazy    |                |
+| 1738          | [找出第 K 大的异或坐标值](./LeetCode/1738_javascript.js)               | [Find Kth Largest Xor Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | javascript, | 位运算,异或 |   medium   |                |
+| 剑指 Offer 15 | [剑指 Offer15.二进制中 1 的个数](./LeetCode/剑指Offer15_javascript.js) | [二进制中 1 的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)                          | javascript, | 位运算      |    eazy    |      191       |
 
 ---
