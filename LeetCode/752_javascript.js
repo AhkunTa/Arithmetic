@@ -55,6 +55,21 @@ var openLock = function (deadends, target) {
   let dead = new Set(deadends);
   // hash值 避免重复遍历
   let hash = new Set(["0000"]);
+
+  function next(value) {
+    let arr = [];
+    for (let j = 0; j < 4; j++) {
+      let value1 = value.split("");
+      let value2 = value.split("");
+      // 每一位加一
+      value1[j] = value1[j] == "9" ? "0" : Number(value1[j]) + 1 + "";
+      // 或每一位减一
+      value2[j] = value2[j] == "0" ? "9" : Number(value2[j]) - 1 + "";
+      arr.push(value1.join(""), value2.join(""));
+    }
+    return arr;
+  }
+
   while (root.length) {
     step++;
     let length = root.length;
@@ -75,21 +90,5 @@ var openLock = function (deadends, target) {
       }
     }
   }
-
-  function next(value) {
-    let arr = [];
-
-    for (let j = 0; j < 4; j++) {
-      let value1 = value.split("");
-      let value2 = value.split("");
-      // 每一位加一
-      value1[j] = value1[j] == "9" ? "0" : Number(value1[j]) + 1 + "";
-      // 或每一位减一
-      value2[j] = value2[j] == "0" ? "9" : Number(value2[j]) - 1 + "";
-      arr.push(value1.join(""), value2.join(""));
-    }
-    return arr;
-  }
-
   return -1;
 };
