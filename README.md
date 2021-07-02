@@ -333,6 +333,7 @@
 | 1387         | [将整数按权重排序](./LeetCode/1387_javascript.js)                     | [Sort Integers By The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)                                               | javascript, | 排序         |   medium   |
 | 1470         | [重新排列数组](./LeetCode/1470_javascript.js)                         | [Shuffle The Array](https://leetcode-cn.com/problems/shuffle-the-array/)                                                                             | javascript, | 排序         |    eazy    |
 | 1491         | [去掉最低工资和最高工资后的工资平均值](./LeetCode/1491_javascript.js) | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | javascript, | 排序         |    eazy    |
+| 1833         | [雪糕的最大数量](./LeetCode/1833_javascript.js)                       | [Maximum Ice Cream Bars](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)                                                                   | javascript, | 排序,贪心    |   medium   |
 | 面试题 17.14 | [最小 K 个数](./LeetCode/面试题17.14_javascript.js)                   | [Smallest K Lcci](https://leetcode-cn.com/problems/smallest-k-lcci/)                                                                                 | javascript, | 排序         |   medium   |
 
 ---
