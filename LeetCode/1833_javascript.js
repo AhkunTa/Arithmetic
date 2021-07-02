@@ -91,15 +91,23 @@ var maxIceCream = function (costs, coins) {
 
 // 计数排序
 var maxIceCream = function (costs, coins) {
+  // i 为 价格区间 1 -100000
+  // temo[i] 为价格数量
   let tempArr = new Array(10000).fill(0);
+  // 计算价格数量
   for (let cost of costs) {
     tempArr[cost]++;
   }
   let count = 0;
+  // 从价格1开始遍历
   for (let i = 1; i <= 100000; i++) {
     if (coins >= i) {
+      // 当 数量 超过最大可购买数量时
+      // 例 costs = [1,1,1] coins = 2
+      // 则 curCount =  Math.min(tempArr[i], Math.floor(coins / i)) = Math.min(3,2) = 2
       let curCount = Math.min(tempArr[i], Math.floor(coins / i));
       count += curCount;
+      // 减去 单价 * 数量
       coins -= i * curCount;
     } else {
       break;
