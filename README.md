@@ -381,6 +381,7 @@
 | 1237 | [找出给定方程的正整数解](./LeetCode/1237_javascript.js)                   | [Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)         | javascript, | 二分 ,双指针  |    eazy    |                |
 | 1351 | [统计有序矩阵中的负数](./LeetCode/1351_javascript.js)                     | [Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)                             | javascript, | 二分          |    eazy    |                |
 | 1337 | [方阵中战斗力最弱的 K 行](./LeetCode/1337_javascript.js)                  | [The K Weakest Rows In A Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)                                                   | javascript, | 二分          |    eazy    |                |
+| 1818 | [绝对差值和](./LeetCode/1818_typescript.ts)                               | [Minimum Absolute Sum Difference](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/)                                                 | javascript, | 贪心,二分     |   medium   |
 
 ---
 
@@ -408,6 +409,7 @@
 | 1221 | [分割平衡字符串](./LeetCode/1221_javascript.js)           | [Split A String In Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)                           | javascript, | 贪心                          |    eazy    |
 | 1403 | [非递增顺序的最小子序列](./LeetCode/1403_javascript.js)   | [Minimum Subsequence in Non-Increasing Order](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)         | javascript, | 贪心                          |    eazy    |
 | 1561 | [你可以获得的最大硬币数目](./LeetCode/1561_javascript.js) | [Maximum Number Of Coins You Can Get](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)                         | javascript, | 贪心,排序                     |    eazy    |
+| 1818 | [绝对差值和](./LeetCode/1818_typescript.ts)               | [Minimum Absolute Sum Difference](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/)                                 | javascript, | 贪心,二分                     |   medium   |
 
 ---
 
