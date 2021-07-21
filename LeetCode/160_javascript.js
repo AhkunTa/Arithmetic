@@ -25,3 +25,4 @@ var getIntersectionNode = function (headA, headB) {
   }
   return list1;
 };
+// 同   - 剑指 Offer 52. 两个链表的第一个公共节点

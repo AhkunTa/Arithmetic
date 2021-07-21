@@ -256,6 +256,7 @@
 | 剑指 Offer 32 - I    | [从上到下打印二叉树](./LeetCode/剑指Offer32_javascript.js)                    | [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)                                                                      | javascript, | 回溯,递归, BFS,DFS,树           |   medium   |
 | 剑指 Offer 32 - II   | [从上到下打印二叉树 II](./LeetCode/剑指Offer32_javascript.js)                 | [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)                                                                | javascript, | 回溯,递归, BFS,DFS,树           |   medium   |
 | 剑指 Offer 32 - III  | [从上到下打印二叉树 III](./LeetCode/剑指Offer32_javascript.js)                | [从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)                                                              | javascript, | 回溯,递归, BFS,DFS,树           |   medium   |
+| 剑指 Offer 52        | [两个链表的第一个公共节点](./LeetCode/160_javascript.js)                      | [两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)                                                   | javascript, | 链表                            |    eazy    |      160       |
 | LCP07 传递信息       | [传递信息](./LeetCode/LCP07传递信息_javascript.js)                            | [传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/)                                                                                                          | javascript, | 回溯,递归,BFS,DFS               |    eazy    |
 
 ---
@@ -438,17 +439,18 @@
 
 ### 链表
 
-| #             | 题名                                                     | Topic Name                                                                                             | Solution    | Keywords    | Difficulty | Similar Topics |
-| ------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | :---------- | :---------- | :--------: | :------------: |
-| 19            | [删除链表的倒数第 N 个节点](./LeetCode/19_javascript.js) | [Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | javascript, | 链表,双指针 |   medium   |                |
-| 21            | [合并两个有序链表](./LeetCode/21_javascript.js)          | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                     | javascript, | 链表,递归   |    eazy    |                |
-| 24            | [两两交换链表中的节点](./LeetCode/24_javascript.js)      | [Swap Nodes In Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)                           | javascript, | 链表,递归   |   medium   |                |
-| 61            | [旋转链表](./LeetCode/61_javascript.js)                  | [Rotate List](https://leetcode-cn.com/problems/rotate-list/)                                           | javascript, | 链表        |   medium   |                |
-| 160           | [相交链表](./LeetCode/160_javascript.js)                 | [Intersection Of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | javascript, | 链表        |    eazy    |                |
-| 203           | [移除链表元素](./LeetCode/203_javascript.js)             | [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/)           | javascript, | 链表        |    eazy    |                |
-| 206           | [反转链表](./LeetCode/206_javascript.js)                 | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                           | javascript, | 链表        |    eazy    |                |
-| 237           | [删除链表中的节点](./LeetCode/237_javascript.js)         | [Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)         | javascript, | 链表        |    eazy    |                |
-| 剑指 Offer 18 | [删除链表的节点](./LeetCode/237_javascript.js)           | [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)                | javascript, | 链表        |    eazy    |      237       |
+| #             | 题名                                                     | Topic Name                                                                                                           | Solution    | Keywords    | Difficulty | Similar Topics |
+| ------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | :---------- | :---------- | :--------: | :------------: |
+| 19            | [删除链表的倒数第 N 个节点](./LeetCode/19_javascript.js) | [Remove Nth Node From End Of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)               | javascript, | 链表,双指针 |   medium   |                |
+| 21            | [合并两个有序链表](./LeetCode/21_javascript.js)          | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                                   | javascript, | 链表,递归   |    eazy    |                |
+| 24            | [两两交换链表中的节点](./LeetCode/24_javascript.js)      | [Swap Nodes In Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)                                         | javascript, | 链表,递归   |   medium   |                |
+| 61            | [旋转链表](./LeetCode/61_javascript.js)                  | [Rotate List](https://leetcode-cn.com/problems/rotate-list/)                                                         | javascript, | 链表        |   medium   |                |
+| 160           | [相交链表](./LeetCode/160_javascript.js)                 | [Intersection Of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)               | javascript, | 链表        |    eazy    |                |
+| 203           | [移除链表元素](./LeetCode/203_javascript.js)             | [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/)                         | javascript, | 链表        |    eazy    |                |
+| 206           | [反转链表](./LeetCode/206_javascript.js)                 | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                                         | javascript, | 链表        |    eazy    |                |
+| 237           | [删除链表中的节点](./LeetCode/237_javascript.js)         | [Delete Node In A Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)                       | javascript, | 链表        |    eazy    |                |
+| 剑指 Offer 18 | [删除链表的节点](./LeetCode/237_javascript.js)           | [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)                              | javascript, | 链表        |    eazy    |      237       |
+| 剑指 Offer 52 | [两个链表的第一个公共节点](./LeetCode/160_javascript.js) | [两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | javascript, | 链表        |    eazy    |      160       |
 
 ---
 
