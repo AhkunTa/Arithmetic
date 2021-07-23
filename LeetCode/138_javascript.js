@@ -86,4 +86,38 @@ var copyRandomList = function (head) {
 };
 
 // 2 线性的空间复杂度 看题解
-// https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-rblsf/
+//leetcode-cn.com/problems/copy-list-with-random-pointer/solution/liang-chong-shi-xian-tu-jie-138-fu-zhi-dai-sui-ji-/
+
+var copyRandomList = function (head) {
+  if (head == null) return head;
+  let list = head;
+  // 复制一个节点到原节点后面
+  while (list !== null) {
+    let node = new Node(list.val, null, null);
+    node.next = list.next;
+    list.next = node;
+    list = node.next;
+  }
+  list = head;
+  // 解决random 链接问题
+  while (list !== null) {
+    if (list.random !== null) {
+      // 链接random
+      list.next.random = list.random.next;
+    }
+    list = list.next.next;
+  }
+
+  // 最后分离链表
+  list = head;
+  let res = new Node(-1, null, null);
+  let cur = res;
+  while (list != null) {
+    cur.next = list.next;
+    cur = cur.next;
+    list.next = cur.next;
+    list = list.next;
+  }
+
+  return res.next;
+};
