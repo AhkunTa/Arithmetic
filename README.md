@@ -601,3 +601,11 @@
 | 1248 | [统计「优美子数组」](./LeetCode/1248_javascript.js) | [Count Number Of Nice Subarrays](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/) | javascript, | 数组,前缀和 |   midium   |      560       |
 
 ---
+
+### 最短路径
+
+| #   | 题名                                         | Topic Name                                                                 | Solution    | Keywords | Difficulty | Similar Topics |
+| --- | -------------------------------------------- | -------------------------------------------------------------------------- | :---------- | :------- | :--------: | :------------: |
+| 743 | [网络延迟时间](./LeetCode/743_javascript.js) | [Network Delay Time](https://leetcode-cn.com/problems/network-delay-time/) | javascript, | 最短路径 |   midium   |                |
+
+---
