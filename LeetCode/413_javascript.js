@@ -35,6 +35,11 @@ var numberOfArithmeticSlices = function (nums) {
   if (length < 3) return 0;
 
   let dp = new Array(length).fill(0);
+  // [1,2,3,4,5,6] 6 + 4
+  // [1,2,3,4,5]   3+3
+  // [1,2,3,4]     3
+  // [1,2,3]       1
+  // 从后往前看 新加上一位 就从后往前遍历看是否 456  3456 23456 123456 为等差数列
 
   dp[0] = dp[1] = 0;
   for (let i = 2; i < nums.length; i++) {
