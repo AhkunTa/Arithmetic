@@ -74,3 +74,43 @@ var networkDelayTime = function (times, n, k) {
 
   return res === Infinity ? -1 : res;
 };
+
+// DFS
+var networkDelayTime = function (times, n, k) {
+  // 构造图
+  let map = new Map();
+  for (let i = 0; i < times.length; i++) {
+    let start = times[i][0];
+    let end = times[i][1];
+    let leng = times[i][2];
+    if (map.get(start) == undefined) {
+      map.set(start, [[end, leng]]);
+    } else {
+      map.set(start, [...map.get(start), [end, leng]]);
+    }
+  }
+  // 构造好的图是这样的 方便之后取值
+  // 以 times = [[2,1,1],[2,3,1],[3,4,1]]为例
+  // {
+  // 2: [[1,1],[2,1]]
+  // 3:[[4,1]]
+  // }
+  // distance[i] 为 原点到 i的距离
+  let distance = new Array(n + 1).fill(-1);
+  let used = new Array(n).fill(false);
+  // start 为开始点 len 为总距离长度
+  let dfs = (start, len) => {
+    if (map.get(start) !== undefined && !used[start]) {
+      let arr = map.get(start);
+      for (let i = 0; i < arr.length; i++) {
+        let end = arr[i][0];
+        let length = arr[i][1];
+        distance[end] = len + length;
+        used[start] = true;
+        dfs(end, len + length);
+      }
+    }
+  };
+  dfs(k, 0);
+  return Math.max(...distance);
+};
