@@ -205,6 +205,7 @@
 | 714                  | [买卖股票的最佳时机含手续费](./LeetCode/714_javascript.js)                    | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                         | javascript, | 动态规划                        |   medium   |
 | 724                  | [寻找数组的中心索引](./LeetCode/724_javascript.js)                            | [Find Pivot Index](https://leetcode-cn.com/problems/find-pivot-index/)                                                                                                 | javascript, | 数组,前缀和                     |    eazy    |
 | 733                  | [图像渲染](./LeetCode/733_javascript.js)                                      | [Flood Fill](https://leetcode-cn.com/problems/flood-fill/)                                                                                                             | javascript, | 回溯,递归                       |    eazy    |
+| 743                  | [网络延迟时间](./LeetCode/743_javascript.js)                                  | [Network Delay Time](https://leetcode-cn.com/problems/network-delay-time/)                                                                                             | javascript, | 最短路径, DFS                   |   midium   |                |
 | 744                  | [寻找比目标字母大的最小字母](./LeetCode/744_javascript.js)                    | [Find Smallest Letter Greater Than Target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)                                                 | javascript, | 二分                            |    eazy    |
 | 746                  | [使用最小花费爬楼梯](./LeetCode/746_javascript.js)                            | [min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                                                                                 | javascript, | 动态规划                        |    eazy    |
 | 752\*                | [打开转盘锁](./LeetCode/752_javascript.js)                                    | [Open The Lock](https://leetcode-cn.com/problems/open-the-lock/)                                                                                                       | javascript, | 回溯,递归,BFS,DFS               |   medium   |
@@ -626,8 +627,10 @@
 
 ### 最短路径
 
-| #   | 题名                                         | Topic Name                                                                 | Solution    | Keywords | Difficulty | Similar Topics |
-| --- | -------------------------------------------- | -------------------------------------------------------------------------- | :---------- | :------- | :--------: | :------------: |
-| 743 | [网络延迟时间](./LeetCode/743_javascript.js) | [Network Delay Time](https://leetcode-cn.com/problems/network-delay-time/) | javascript, | 最短路径 |   midium   |                |
+| #   | 题名                                                   | Topic Name                                                                                           | Solution    | Keywords                      | Difficulty | Similar Topics |
+| --- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | :---------- | :---------------------------- | :--------: | :------------: |
+| 743 | [网络延迟时间](./LeetCode/743_javascript.js)           | [Network Delay Time](https://leetcode-cn.com/problems/network-delay-time/)                           | javascript, | 最短路径, DFS                 |   midium   |    787 797     |
+| 787 | [K 站中转内最便宜的航班](./LeetCode/787_javascript.js) | [Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/) | javascript, | 回溯,递归 ,动态规划 ,贪心算法 |   medium   |    757 797     |
+| 797 | [所有可能的路径](./LeetCode/797_javascript.js)         | [All Paths From Source To Target](https://leetcode-cn.com/problems/all-paths-from-source-to-target/) | javascript, | 回溯,递归,BFS,DFS             |   medium   |    757 797     |
 
 ---

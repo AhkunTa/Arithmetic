@@ -42,7 +42,7 @@
 
 var networkDelayTime = function (times, n, k) {
   // 将 g[i][j] 设为路径 i -> j 的最短路径 若无连接点 即为 Infinity
-  let g = Array.from(new Array(n), (arr) => new Array(n).fill(Infinity));
+  let g = Array.from(new Array(n), arr => new Array(n).fill(Infinity));
 
   for (let [x, y, value] of times) {
     // 从0开始
@@ -76,6 +76,12 @@ var networkDelayTime = function (times, n, k) {
 };
 
 // DFS
+/**
+ * @param {number[][]} times
+ * @param {number} n
+ * @param {number} k
+ * @return {number}
+ */
 var networkDelayTime = function (times, n, k) {
   // 构造图
   let map = new Map();
@@ -96,21 +102,25 @@ var networkDelayTime = function (times, n, k) {
   // 3:[[4,1]]
   // }
   // distance[i] 为 原点到 i的距离
-  let distance = new Array(n + 1).fill(-1);
-  let used = new Array(n).fill(false);
+  let distance = new Array(n + 1).fill(Infinity);
+  // 给 distance[0] 置 0 主要是方便最后计算 infinite
+  distance[0] = 0;
+
   // start 为开始点 len 为总距离长度
   let dfs = (start, len) => {
-    if (map.get(start) !== undefined && !used[start]) {
-      let arr = map.get(start);
+    // 这步十分巧妙 初始化 distance都 为 infinite
+    // 每个开始节点只经过一次
+    if (len < distance[start]) {
+      distance[start] = len;
+      let arr = map.get(start) || [];
       for (let i = 0; i < arr.length; i++) {
         let end = arr[i][0];
         let length = arr[i][1];
-        distance[end] = len + length;
-        used[start] = true;
+
         dfs(end, len + length);
       }
     }
   };
   dfs(k, 0);
-  return Math.max(...distance);
+  return Math.max(...distance) == Infinity ? -1 : Math.max(...distance);
 };
