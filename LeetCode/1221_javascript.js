@@ -4,7 +4,7 @@
 
 // 返回可以通过分割得到的平衡字符串的最大数量。
 
-//  
+//
 
 // 示例 1：
 
@@ -21,7 +21,7 @@
 // 输入：s = "LLLLRRRR"
 // 输出：1
 // 解释：s 只能保持原样 "LLLLRRRR".
-//  
+//
 
 // 提示：
 
@@ -29,24 +29,22 @@
 // s[i] = 'L' 或 'R'
 // 分割得到的每个字符串都必须是平衡字符串。
 
-
-
-
 /**
  * @param {string} s
  * @return {number}
  */
-var balancedStringSplit = function(s) {
-    let total = 0,res = 0;
-    for(let i=0; i<s.length; i++){
-    	// 仅为R或L 当R的数量 === L的数量 时 res++
-        if(s.slice(i,i+1) == 'R'){
-            total ++
-        } else {
-            total --
-        }
-        if(total == 0) res ++
-
+// 2021.09.07 每日一题
+var balancedStringSplit = function (s) {
+  let total = 0,
+    res = 0;
+  for (let i = 0; i < s.length; i++) {
+    // 仅为R或L 当R的数量 === L的数量 时 res++
+    if (s.slice(i, i + 1) == "R") {
+      total++;
+    } else {
+      total--;
     }
-    return res;
+    if (total == 0) res++;
+  }
+  return res;
 };

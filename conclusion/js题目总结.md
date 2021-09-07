@@ -412,3 +412,38 @@ Array.prototype.mySlice = function (start, end) {
 ```
 
 ---
+
+# JS 手写题目
+
+## PromiseAll
+
+```javascript
+function PromiseAll(promises) {
+  function isPromise(obj) {
+    return (
+      (typeof obj === "object" || typeof obj === "function") &&
+      typeof obj.then === "function"
+    );
+  }
+
+  let res = [];
+  return new Promise((resolve, reject) => {
+    for (let i = 0; i < promises.length; i++) {
+      if (isPromise(promises[i])) {
+        promises[i]
+          .then(data => {
+            res[i] = data;
+            if (res.length == promises.length) {
+              resolve(res);
+            }
+          })
+          .catch(err => {
+            reject(err);
+          });
+      } else {
+        res[i] = promises[i];
+      }
+    }
+  });
+}
+```

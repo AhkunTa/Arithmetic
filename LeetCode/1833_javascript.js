@@ -46,7 +46,7 @@ var maxIceCream = function (costs, coins) {
   //     }
   //   }
   // }
-  // 插入
+  // 选择
   // for(let i=0; i<costs.length; i++){
   //   let minIndex = i;
   //   for(let j=i+1; j<costs.length; j++){
