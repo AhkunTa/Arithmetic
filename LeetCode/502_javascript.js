@@ -36,6 +36,8 @@
 // 0 <= profits[i] <= 104
 // 0 <= capital[i] <= 109
 
+// 2021.09.08 每日一题
+
 /**
  * @param {number} k
  * @param {number} w
