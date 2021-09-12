@@ -202,6 +202,7 @@
 | 611                  | [有效三角形的个数](./LeetCode/611_typescript.ts)                              | [Valid Triangle Number](https://leetcode-cn.com/problems/valid-triangle-number/)                                                                                       | typescript, | 贪心算法                        |   medium   |
 | 633                  | [平方数之和](./LeetCode/633_javascript.js)                                    | [Sum Of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)                                                                                       | javascript, | 双指针                          |   medium   |
 | 671                  | [二叉树中第二小的节点](./LeetCode/671_javascript.js)                          | [Second Minimum Node In a Binary Tree](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)                                                         | javascript, | 回溯,递归, BFS,DFS,树           |    eazy    |                |
+| 678\*                | [有效的括号字符串](./LeetCode/678_javascript.js)                              | [Valid Parenthesis String](https://leetcode-cn.com/problems/valid-parenthesis-string/)                                                                                 | javascript, | 贪心#,动态规划#,栈              |   medium   |
 | 680                  | [验证回文字符串 II](./LeetCode/680_javascript.js)                             | [Valid Palindrome II](https://leetcode-cn.com/problems/valid-palindrome-ii/)                                                                                           | javascript, | 双指针                          |    eazy    |
 | 690                  | [图像渲染](./LeetCode/690_javascript.js)                                      | [Employee Importance](https://leetcode-cn.com/problems/employee-importance/)                                                                                           | javascript, | 回溯,递归, BFS,DFS              |   medium   |
 | 692                  | [前 K 个高频单词](./LeetCode/692_javascript.js)                               | [Top K Frequent Words](https://leetcode-cn.com/problems/top-k-frequent-words/)                                                                                         | javascript, | 哈希                            |   medium   |
@@ -333,6 +334,7 @@
 | 516                  | [最长回文子序列](./LeetCode/516_javascript.js)               | [Longest Palindromic Subsequence](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)                                           | javascript, | 动态规划                        |   medium   |
 | 518                  | [零钱兑换 II](./LeetCode/518_javascript.js)                  | [Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/)                                                                               | javascript, | 动态规划,DFS                    |   medium   |
 | 552                  | [学生出勤记录 II](./LeetCode/552_javascript.js)              | [Student Attendance Record II](https://leetcode-cn.com/problems/student-attendance-record-ii/)                                                 | javascript, | 动态规划                        |    hard    |
+| 678                  | [有效的括号字符串](./LeetCode/678_javascript.js)             | [Valid Parenthesis String](https://leetcode-cn.com/problems/valid-parenthesis-string/)                                                         | javascript, | 贪心#,动态规划#,栈              |   medium   |
 | 704                  | [二分查找](./LeetCode/704_javascript.js)                     | [Binary Search](https://leetcode-cn.com/problems/binary-search/)                                                                               | javascript, | 二分                            |    eazy    |
 | 714                  | [买卖股票的最佳时机含手续费](./LeetCode/714_javascript.js)   | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | javascript, | 动态规划                        |   medium   |
 | 746                  | [使用最小花费爬楼梯](./LeetCode/746_javascript.js)           | [min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                                                         | javascript, | 动态规划                        |    eazy    |
@@ -437,6 +439,7 @@
 | 581  | [最短无序连续子数组](./LeetCode/581_javascript.js)              | [Shortest Unsorted Continuous Subarray](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)                       | javascript, | 贪心算法                      |   medium   |
 | 605  | [种花问题](./LeetCode/787_javascript.js)                        | [Can Place Flowers](https://leetcode-cn.com/problems/can-place-flowers/)                                                               | javascript, | 贪心算法                      |    eazy    |
 | 611  | [有效三角形的个数](./LeetCode/611_typescript.ts)                | [Valid Triangle Number](https://leetcode-cn.com/problems/valid-triangle-number/)                                                       | typescript, | 贪心算法                      |   medium   |
+| 678  | [有效的括号字符串](./LeetCode/678_javascript.js)                | [Valid Parenthesis String](https://leetcode-cn.com/problems/valid-parenthesis-string/)                                                 | javascript, | 贪心#,动态规划#,栈            |   medium   |
 | 763  | [划分字母区间](./LeetCode/787_javascript.js)                    | [Partition Labels](https://leetcode-cn.com/problems/partition-labels/)                                                                 | javascript, | 哈希表,贪心算法               |   medium   |
 | 787  | [K 站中转内最便宜的航班](./LeetCode/787_javascript.js)          | [Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)                                   | javascript, | 回溯,递归 ,动态规划 ,贪心算法 |   medium   |
 | 789  | [逃脱阻碍者](./LeetCode/789_javascript.js)                      | [Escape The Ghosts](https://leetcode-cn.com/problems/escape-the-ghosts/)                                                               | javascript, | 贪心                          |   medium   |
@@ -649,10 +652,11 @@
 
 ---
 
-### 堆(优先队列)
+### 堆(优先队列 栈
 
-| #   | 题名                                | Topic Name                                   | Solution    | Keywords     | Difficulty | Similar Topics |
-| --- | ----------------------------------- | -------------------------------------------- | :---------- | :----------- | :--------: | :------------: |
-| 502 | [IPO](./LeetCode/502_javascript.js) | [IPO](https://leetcode-cn.com/problems/ipo/) | javascript, | 堆(优先队列) |    hard    |
+| #   | 题名                                             | Topic Name                                                                             | Solution    | Keywords           | Difficulty | Similar Topics |
+| --- | ------------------------------------------------ | -------------------------------------------------------------------------------------- | :---------- | :----------------- | :--------: | :------------: |
+| 502 | [IPO](./LeetCode/502_javascript.js)              | [IPO](https://leetcode-cn.com/problems/ipo/)                                           | javascript, | 堆(优先队列)       |    hard    |
+| 678 | [有效的括号字符串](./LeetCode/678_javascript.js) | [Valid Parenthesis String](https://leetcode-cn.com/problems/valid-parenthesis-string/) | javascript, | 贪心#,动态规划#,栈 |   medium   |
 
 ---
