@@ -20,6 +20,7 @@
 // 字典的大小不会超过 1000。
 // 所有输入的字符串长度不会超过 1000。
 
+//  2021.09.14 每日一题
 /**
  * @param {string} s
  * @param {string[]} d
@@ -46,4 +47,29 @@ var findLongestWord = function (s, d) {
     }
   }
   return "";
+};
+
+// 双指针
+var findLongestWord = function (s, d) {
+  let res = "";
+  for (let i = 0; i < d.length; i++) {
+    // 定义两个指针
+    let sPointer = 0;
+    let dPointer = 0;
+    while (dPointer < d[i].length.length || sPointer < s.length) {
+      if (s[sPointer] == d[i][dPointer]) {
+        dPointer++;
+      }
+      sPointer++;
+    }
+    if (dPointer == d[i].length) {
+      // 字典序排序
+      if (res.length == d[i].length) {
+        res = d[i] < res ? d[i] : res;
+      } else if (res.length < d[i].length) {
+        res = d[i];
+      }
+    }
+  }
+  return res;
 };
