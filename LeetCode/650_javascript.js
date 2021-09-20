@@ -40,7 +40,9 @@ var minSteps = function (n) {
   for (let i = 3; i <= n; i++) {
     // 求i的最大公约
     let min = i;
-    for (let j = 2; j < i; j++) {
+    // 只需要求到 i的一半
+    // dp[50] 为例 只需求到 2 - 25 的公约数
+    for (let j = 2; j < i / 2; j++) {
       // 有公约数
       // 只要求得其值 如 dp[50] = dp[10 * 5] = dp[2 * 25] = dp[1 * 50]
       // 也就是 dp[10] 有10个A之后 拷贝一次 复制四次  即dp[10] + 5
