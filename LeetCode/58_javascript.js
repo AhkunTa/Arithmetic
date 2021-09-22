@@ -8,18 +8,31 @@
 // 输入: "Hello World"
 // 输出: 5
 
-
 /**
  * @param {string} s
  * @return {number}
  */
 
+// 2021.09.21 每日一题
+
 // string 自带trim 去除头尾空格
-var lengthOfLastWord = function(s) {
-	// 去除尾部空格
-    // s = s.replace(/\s*$/g,'')
-    
-    var arr = s.trim().split(' ');
-    var newStr = arr[arr.length-1];
-    return newStr.length 
+var lengthOfLastWord = function (s) {
+  // 去除尾部空格
+  // s = s.replace(/\s*$/g,'')
+
+  var arr = s.trim().split(" ");
+  var newStr = arr[arr.length - 1];
+  return newStr.length;
+};
+
+var lengthOfLastWord = function (s) {
+  let length = 0;
+  s = s.trim();
+  for (let i = s.length - 1; i >= 0; i--) {
+    if (s[i] == " ") {
+      break;
+    }
+    length++;
+  }
+  return length;
 };
