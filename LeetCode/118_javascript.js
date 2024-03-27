@@ -37,3 +37,16 @@ var generate = function(numRows) {
     }
     return arr;
 };
+
+var generate2 = function(numRows) {
+  const dp = Array.from(new Array(numRows), (v,k)=> new Array(k+1).fill(1))
+  for(let i=1; i<numRows; i++){
+    for(let j=1; j<=i; j++){
+      if(!dp[i-1][j-1]|| !dp[i-1][j]){
+        continue;
+      }
+      dp[i][j] = dp[i-1][j] + dp[i-1][j-1]
+    }
+  }
+  return dp
+}

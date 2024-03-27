@@ -77,3 +77,12 @@ var minimumTotal3 = function(triangle) {
     return Math.min(...dp[triangle.length-1])
 }
 
+var minimumTotal4 = function(triangle) {
+  // 自底向上 动态规划
+  for(let i=triangle.length -1; i>=0; i--){
+    const line = triangle[i];
+    for(let j=0 ; j<line.length; j++){
+      dp[i][j] = Math.min(dp[i][j] + dp[])
+    }
+  }
+}

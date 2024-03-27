@@ -191,7 +191,7 @@
 | 475\*                | [供暖器](./LeetCode/475_javascript.js)                                        | [Heaters](https://leetcode-cn.com/problems/heaters/)                                                                                                                   | javascript, | 二分                            |    eazy    |
 | 476                  | [数字的补数](./LeetCode/476_javascript.js)                                    | [Number Complement](https://leetcode-cn.com/problems/number-complement/)                                                                                               | javascript, | 位运算                          |    eazy    |
 | 486\*                | [预测赢家](./LeetCode/486_javascript.js)                                      | [Predict The Winner](https://leetcode-cn.com/problems/predict-the-winner/)                                                                                             | javascript, | 动态规划                        |   medium   |
-| 492                 | [构造矩形](./LeetCode/492_javascript.js)                                    | [Construct The Rectangle](https://leetcode-cn.com/problems/construct-the-rectangle/)                                                                                               | javascript, |                           |    eazy    |
+| 492                  | [构造矩形](./LeetCode/492_javascript.js)                                      | [Construct The Rectangle](https://leetcode-cn.com/problems/construct-the-rectangle/)                                                                                   | javascript, |                                 |    eazy    |
 | 502\*\*              | [IPO](./LeetCode/502_javascript.js)                                           | [IPO](https://leetcode-cn.com/problems/ipo/)                                                                                                                           | javascript, | 堆(优先队列)                    |    hard    |
 | 513                  | [找树左下角的值](./LeetCode/513_javascript.js)                                | [Find Bottom Left Tree Value](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)                                                                           | javascript, | 回溯,递归, BFS                  |   medium   |
 | 516                  | [最长回文子序列](./LeetCode/516_javascript.js)                                | [Longest Palindromic Subsequence](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)                                                                   | javascript, | 动态规划                        |   medium   |
@@ -672,7 +672,7 @@
 
 ---
 
-### 堆(优先队列 栈
+### 堆栈(优先队列)
 
 | #   | 题名                                             | Topic Name                                                                             | Solution    | Keywords           | Difficulty | Similar Topics |
 | --- | ------------------------------------------------ | -------------------------------------------------------------------------------------- | :---------- | :----------------- | :--------: | :------------: |
